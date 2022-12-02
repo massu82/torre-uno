@@ -2607,13 +2607,16 @@ blockquote cite:before {
 .bauen-gallery-items .col-md-6:nth-child(2) {
     margin-top: 0px;
 }
-.bauen-gallery-filter {
+.bauen-gallery-items-b .col-md-6:nth-child(2) {
+    margin-top: 0px;
+}
+.bauen-gallery-filter, .bauen-gallery-filter-b {
     width: 100%;
     padding-bottom: 30px;
     padding-left: 0px;
     position: relative;
 }
-.bauen-gallery-filter li {
+.bauen-gallery-filter li, .bauen-gallery-filter-b li {
     margin-right: 15px;
     display: inline-block;
     font-size: 16px;
@@ -2622,10 +2625,10 @@ blockquote cite:before {
     font-family: 'Didact Gothic', sans-serif;
     font-weight: 400;
 }
-.bauen-gallery-filter li:last-child {
+.bauen-gallery-filter li:last-child, .bauen-gallery-filter-b li:last-child {
     margin-right: 0;
 }
-.bauen-gallery-filter li.active {
+.bauen-gallery-filter li.active, .bauen-gallery-filter-b li.active {
     color: #b19777;
     content: "";
     left: 0;
@@ -2635,7 +2638,7 @@ blockquote cite:before {
     -o-transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
     transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
 }
-.bauen-gallery-filter li:hover {
+.bauen-gallery-filter li:hover, .bauen-gallery-filter-b li:hover {
     color: #b19777;
 }
 .gallery-masonry-wrapper .gallery-masonry-item-img-link {
@@ -2714,7 +2717,7 @@ blockquote cite:before {
     margin-right: auto;
   }
     
-     .bauen-gallery-items .col-md-6:nth-child(2) {
+     .bauen-gallery-items .col-md-6:nth-child(2), .bauen-gallery-items-b.col-md-6:nth-child(2) {
         margin-top: 0;
     }
 }

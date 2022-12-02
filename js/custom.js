@@ -115,6 +115,28 @@ $(function() {
 			, layoutMode: 'masonry'
 		, });
 	});
+    // Isotope Active Masonry Gallery B
+    $('.bauen-gallery-items-b').imagesLoaded(function () {
+        // Add isotope on click filter function
+        $('.bauen-gallery-filter-b li').on('click', function () {
+            $(".bauen-gallery-filter-b li").removeClass("active");
+            $(this).addClass("active");
+            var selector = $(this).attr('data-filter');
+            $(".bauen-gallery-items-b").isotope({
+                filter: selector
+                , animationOptions: {
+                    duration: 750
+                    , easing: 'linear'
+                    , queue: false
+                    , }
+            });
+            return false;
+        });
+        $(".bauen-gallery-items-b").isotope({
+            itemSelector: '.single-item'
+            , layoutMode: 'masonry'
+            , });
+    });
 
     // Animations
     var contentWayPoint = function () {
