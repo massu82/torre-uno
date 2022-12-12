@@ -1,76 +1,99 @@
 <?php
-define('SITIO', 'Luxury Apartments');
+define('SITIO', 'Banyan Tree Luxury Apartments');
 define('VIDEO_HOME', 'https://vimeo.com/761561021/d6f5b43863');
 define('CTA', '#contacto');
 define('WHATS', '');
 
+// Slider
+$slider = [
+    [
+        'foto' => '1.jpg',
+        'texto' => 'Oportunidad de inversión inmobiliaria excepcional en la costa del pacífico mexicano',
+        'cta' => '#contacto'
+    ],
+    [
+        'foto' => '2.jpg',
+        'texto' => 'Íntimamente privado y lujoso',
+        'cta' => '#contacto'
+    ],
+    [
+        'foto' => '3.jpg',
+        'texto' => 'Únicos departamentos con marca Banyan Tree en el más exclusivo paraíso de México',
+        'cta' => '#contacto'
+    ],
+    [
+        'foto' => '4.jpg',
+        'texto' => 'Una propiedad hecha obra de arte, solo para unos cuantos privilegiados…',
+        'cta' => '#contacto'
+    ],
+];
 // Galería
 
 $galeria = [
     [
-        'foto' => '01_living',
+        'foto' => '01_living_cam_01_F',
         'cat' => 'interior',
         'des' => 'Living',
         'col' => '6'
     ],
     [
-        'foto' => '01_living_02',
+        'foto' => '01_living_cam_02_f',
         'cat' => 'interior',
         'des' => 'Living',
         'col' => '6'
     ],
     [
-        'foto' => '02_terraza',
-        'cat' => 'interior',
-        'des' => 'Terraza con alberca privada',
-        'col' => '4'
-    ],
-    [
-        'foto' => '03_baño',
-        'cat' => 'interior',
-        'des' => 'Baño principal',
-        'col' => '4'
-    ],
-    [
-        'foto' => '03_baño_02',
-        'cat' => 'interior',
-        'des' => 'Baño principal',
-        'col' => '4'
-    ],
-    [
-        'foto' => '04_dormitorio_01',
+        'foto' => '02_DORMITORIO_CAM_01_f',
         'cat' => 'interior',
         'des' => 'Dormitorio',
         'col' => '4'
     ],
     [
-        'foto' => '04_dormitorio_02',
+        'foto' => '02_DORMITORIO_CAM_02_Post',
         'cat' => 'interior',
         'des' => 'Dormitorio',
         'col' => '4'
     ],
     [
-        'foto' => '05_dormitorio_principal_01',
+        'foto' => '03_BAÑO_cam_01_F',
         'cat' => 'interior',
-        'des' => 'Dormitorio principal',
+        'des' => 'Baño principal',
         'col' => '4'
     ],
     [
-        'foto' => '05_dormitorio_principal_02',
+        'foto' => '04_terraza_cam_01_f',
         'cat' => 'interior',
-        'des' => 'Dormitorio principal',
+        'des' => 'Terraza',
         'col' => '4'
     ],
     [
-        'foto' => '06_BAÑO_SEGUNDARIO',
+        'foto' => '04_terraza_cam_02_Post',
+        'cat' => 'interior',
+        'des' => 'Terraza',
+        'col' => '4'
+    ],
+    [
+        'foto' => '05_baño_sec_cam_01_f',
         'cat' => 'interior',
         'des' => 'Baño',
         'col' => '4'
     ],
     [
-        'foto' => '06_Baño_B_02',
+        'foto' => '05_baño_sec_cam_02',
         'cat' => 'interior',
         'des' => 'Baño',
+        'col' => '4'
+    ],
+    [
+        'foto' => '06_Dormitorio_sec_cam_01_F',
+        'cat' => 'interior',
+        'des' => 'Dormitorio',
+        'col' => '4'
+    ],
+    [
+        'foto' => '06_Dormitorio_sec_cam_02_F',
+        'cat' => 'interior',
+        'des' => 'Dormitorio',
         'col' => '4'
     ],
     [

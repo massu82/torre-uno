@@ -11,11 +11,11 @@
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
     <link rel="stylesheet" href="css/magnific-popup.css"/>
-    <link rel="stylesheet" href="mapplic/mapplic.css"/>
 </head>
 <body>
 <?php include('include/navbar.php'); ?>
-<?php include('include/header-video.php'); ?>
+<?php //include('include/header-video.php'); ?>
+<?php include('include/slider.php'); ?>
 <div class="content-wrapper">
     <!-- Lines -->
     <section class="content-lines-wrapper">
@@ -173,61 +173,6 @@
 </div>
 <!-- jQuery -->
 <script src="js/jquery-3.5.1.min.js"></script>
-<script src="js/jquery.mousewheel.js"></script>
-<script src="mapplic/mapplic.js"></script>
-<script type="text/javascript">
-    $(document).ready(function () {
-        var map = $('#mapplic').mapplic({
-            source: 'apartment.json',
-            height: 'auto',
-            minimap: false,
-            sidebar: true,
-            hovertip: true,
-            maxscale: 3
-
-        });
-        self = map.data('mapplic');
-
-        // EVENTS
-        // Map ready
-        map.on('mapready', function (e, self) {
-            console.log('Map is ready!')
-            // self grants direct access to the map object
-            // The map will be focused on the washing machine by default
-            //self.moveTo(0.67, 0.62, 3, 0);
-        });
-
-        // Location opened
-        map.on('locationopened', function (e, location) {
-            // location grants full access to the location
-            console.log(location.title + ' opened.');
-        });
-
-        // Location closed
-        map.on('locationclosed', function (e) {
-            console.log('Location closed.');
-        });
-
-        // Level switched
-        map.on('levelswitched', function (e, level) {
-            console.log('Switched to ' + level + ' level.');
-        });
-
-        // Position changed
-        map.on('positionchanged', function (e) {
-            // self grants direct access to the map object
-            console.log('Pan or zoom performed, current scale: ' + self.scale);
-        });
-
-        // METHODS
-        // Getting mapplic object
-        var self = map.data('mapplic');
-
-        map.on('locationclosed', function (e) {
-            //console.log(self);
-        });
-    });
-</script>
 <script src="js/jquery-migrate-3.0.0.min.js"></script>
 <script src="js/modernizr-2.6.2.min.js"></script>
 <script src="js/imagesloaded.pkgd.min.js"></script>

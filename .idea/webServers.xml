@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3c762286-b4ab-4c13-8f08-c799b0a6019b" name="mstudio">
+        <fileTransfer rootFolder="/home/mstudio/luxuryapartments/" accessType="SFTP" host="162.214.187.173" port="22022" sshConfigId="130526f0-d764-401f-b80a-688ad7da56d9" sshConfig="mstudio@162.214.187.173:22022 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
