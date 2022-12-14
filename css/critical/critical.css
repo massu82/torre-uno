@@ -1,0 +1,707 @@
+@charset "UTF-8";
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn
+}
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%
+}
+
+header,
+section {
+    display: block
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: left;
+    background-color: #fff
+}
+
+p,
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem
+}
+
+ul ul {
+    margin-bottom: 0
+}
+
+a {
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+    height: auto
+}
+
+button {
+    border-radius: 0;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    overflow: visible;
+    text-transform: none
+}
+
+[type=button],
+button {
+    -webkit-appearance: button
+}
+
+[type=button]::-moz-focus-inner,
+button::-moz-focus-inner {
+    padding: 0;
+    border-style: none
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+
+.col-lg-10,
+.col-md-12 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+@media (min-width:768px) {
+    .col-md-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+}
+
+@media (min-width:992px) {
+    .col-lg-10 {
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%
+    }
+}
+
+.btn {
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5
+}
+
+.d-none {
+    display: none!important
+}
+
+.mx-0 {
+    margin-right: 0!important;
+    margin-left: 0!important
+}
+
+.mx-auto {
+    margin-right: auto!important;
+    margin-left: auto!important
+}
+
+.text-center {
+    text-align: center!important
+}
+
+@media (min-width:768px) {
+    .text-md-left {
+        text-align: left!important
+    }
+}
+
+.text-white {
+    color: #fff!important
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Brands";
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: url(/fonts/fa-brands-400.eot);
+    src: url(/fonts/fa-brands-400.eot?) format("embedded-opentype"), url(/fonts/fa-brands-400.woff2) format("woff2"), url(/fonts/fa-brands-400.woff) format("woff"), url(/fonts/fa-brands-400.ttf) format("truetype"), url(/fonts/fa-brands-400.svg) format("svg")
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: url(/fonts/fa-regular-400.eot);
+    src: url(/fonts/fa-regular-400.eot?) format("embedded-opentype"), url(/fonts/fa-regular-400.woff2) format("woff2"), url(/fonts/fa-regular-400.woff) format("woff"), url(/fonts/fa-regular-400.ttf) format("truetype"), url(/fonts/fa-regular-400.svg) format("svg")
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 900;
+    font-display: auto;
+    src: url(/fonts/fa-solid-900.eot);
+    src: url(/fonts/fa-solid-900.eot?) format("embedded-opentype"), url(/fonts/fa-solid-900.woff2) format("woff2"), url(/fonts/fa-solid-900.woff) format("woff"), url(/fonts/fa-solid-900.ttf) format("truetype"), url(/fonts/fa-solid-900.svg) format("svg")
+}
+
+@font-face {
+    font-family: themify;
+    src: url(/fonts/themify.eot?-fvbane);
+    src: url(/fonts/themify.eot?) format('embedded-opentype'), url(/fonts/themify.woff?-fvbane) format('woff'), url(/fonts/themify.ttf?-fvbane) format('truetype'), url(/fonts/themify.svg?-fvbane) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+[class^=ti-] {
+    font-family: themify;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.swiper-container {
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    z-index: 1
+}
+
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+}
+
+.swiper-slide {
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    position: absolute;
+    margin-top: -22px;
+    z-index: 10;
+    background-size: 27px 44px;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+.swiper-button-prev {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
+    left: 10px;
+    right: auto
+}
+
+.mfp-hide {
+    display: none!important
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 100;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOkCnqEu92Fr1MmgVxIIzc.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fBBc9.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fBBc9.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfBBc9.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmYUtfBBc9.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: trajan-pro-3;
+    src: url(/fonts/trajan-pro-3.ttf)
+}
+
+html {
+    font-size: 15px
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    font-size: 14px;
+    color: #6f6f6f;
+    font-weight: 400;
+    line-height: 24px
+}
+
+body,
+html {
+    height: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    opacity: 1!important
+}
+
+iframe {
+    border: 0
+}
+
+p {
+    margin: 0 0 25px
+}
+
+ul {
+    list-style-position: outside;
+    margin-bottom: 25px
+}
+
+.alt-font {
+    font-family: trajan-pro-3;
+    font-weight: 500;
+    letter-spacing: 2px
+}
+
+h5 {
+    font-family: trajan-pro-3;
+    color: #a29160;
+    letter-spacing: 3px;
+    margin: 0 0 25px;
+    padding: 0;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px
+}
+
+.font-weight-400 {
+    font-weight: 600;
+    font-size: larger
+}
+
+.line-height-30 {
+    line-height: 30px
+}
+
+section {
+    padding: 130px 0;
+    overflow: hidden
+}
+
+.btn {
+    display: inline-block;
+    border: 2px solid transparent;
+    color: inherit;
+    letter-spacing: .5px;
+    line-height: inherit;
+    border-radius: 0;
+    text-transform: uppercase;
+    width: auto;
+    font-family: trajan-pro-3;
+    font-weight: 600;
+    white-space: nowrap
+}
+
+.btn.btn-large {
+    font-size: 13px;
+    padding: 9px 34px;
+    line-height: 25px
+}
+
+.btn-dual .btn {
+    margin: 0 10px
+}
+
+.btn.btn-dark-gray {
+    background: rgba(0, 0, 0, .9);
+    border-color: #a29160;
+    color: #a29160
+}
+
+.cover-background {
+    position: relative!important;
+    background-size: cover!important;
+    overflow: hidden!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important
+}
+
+.no-padding {
+    padding: 0!important
+}
+
+.position-relative {
+    position: relative!important
+}
+
+.width-100 {
+    width: 100%
+}
+
+.height-100 {
+    height: 100%!important
+}
+
+.full-screen {
+    min-height: 980px
+}
+
+header {
+    width: 100%;
+    z-index: 99
+}
+
+.swiper-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%
+}
+
+.swiper-button-next {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
+    right: 10px;
+    left: auto
+}
+
+.swiper-button-prev.swiper-button-white-highlight {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E")
+}
+
+.swiper-button-next.swiper-button-white-highlight {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E")
+}
+
+.swiper-button-next.swiper-button-white-highlight,
+.swiper-button-prev.swiper-button-white-highlight {
+    background-color: #000;
+    background-size: 28% auto;
+    border-radius: 3px;
+    height: 30px;
+    width: 30px;
+    margin: -15px 10px 0;
+    top: 50%
+}
+
+h5.size {
+    font-size: 24px;
+    letter-spacing: normal
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    background-size: inherit;
+    height: 22px;
+    width: 50px;
+    top: 51%
+}
+
+.slider-text-middle-main {
+    display: table;
+    height: 100%;
+    width: 85%
+}
+
+.slider-text-middle {
+    display: table-cell;
+    vertical-align: bottom;
+    text-align: left
+}
+
+.slider-typography {
+    margin-left: 50px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    left: 0
+}
+
+@media screen and (max-width:39.9375em) {
+    .btn.btn-large {
+        font-size: 9px;
+        padding: 4px 12px;
+        line-height: 16px
+    }
+    .btn-dual .btn {
+        min-width: 100px
+    }
+    h5.size {
+        font-size: 16px
+    }
+    .slider-text-middle-main {
+        width: 100%
+    }
+    .slider-typography {
+        margin-top: 5px;
+        margin-left: 0;
+        position: absolute;
+        height: 28%;
+        right: 0;
+        left: 0;
+        top: 72%;
+        background-color: #fff;
+        z-index: 999;
+        padding-top: 10px
+    }
+    .slider {
+        margin-bottom: 15px
+    }
+}
+
+.btn {
+    z-index: 9999
+}
+
+[class^=ti-] {
+    display: inline-block
+}
+
+@media screen and (-ms-high-contrast:active),
+(-ms-high-contrast:none) {
+    .swiper-container {
+        width: 100%
+    }
+}
+
+@media (max-width:1199px) {
+    section {
+        padding: 90px 0
+    }
+    h5 {
+        margin: 0 0 22px;
+        padding: 0;
+        letter-spacing: 0;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 32px
+    }
+    .lg-line-height-auto {
+        line-height: normal
+    }
+}
+
+@media (max-width:991px) {
+    h5 {
+        margin: 0 0 18px;
+        padding: 0;
+        letter-spacing: 0;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px
+    }
+    p {
+        margin: 0 0 20px
+    }
+    section {
+        padding: 75px 0
+    }
+    .md-width-70 {
+        width: 70%!important
+    }
+}
+
+@media (max-width:767px) {
+    body {
+        font-size: 12px;
+        line-height: 20px
+    }
+    h5 {
+        margin: 0 0 17px;
+        padding: 0;
+        letter-spacing: 0;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px
+    }
+    .sm-margin-15px-bottom {
+        margin-bottom: 15px!important
+    }
+    .sm-width-100 {
+        width: 100%!important
+    }
+    section {
+        padding: 50px 0
+    }
+    .mobile-height,
+    .swiper-full-screen {
+        height: auto!important
+    }
+    .mobile-height .full-screen,
+    .swiper-full-screen .full-screen {
+        height: 460px!important;
+        min-height: 460px!important
+    }
+    .btn-dual .btn {
+        margin: 10px auto!important;
+        display: table
+    }
+}
+
+@font-face {
+    font-family: FontAwesome;
+    src: url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/font/fontawesome-webfont.eot?v=3.2.1);
+    src: url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/font/fontawesome-webfont.eot?#iefix&v=3.2.1) format('embedded-opentype'), url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/font/fontawesome-webfont.woff?v=3.2.1) format('woff'), url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/font/fontawesome-webfont.ttf?v=3.2.1) format('truetype'), url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+[class^=icon-] {
+    font-family: FontAwesome;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+    display: inline;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    vertical-align: baseline;
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat;
+    margin-top: 0
+}
+
+[class^=icon-]:before {
+    text-decoration: inherit;
+    display: inline-block;
+    speak: none
+}
+
+@-webkit-keyframes fadeIn {
+    
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    100%,
+    to {
+        opacity: 1
+    }
+    0% {
+        opacity: 0
+    }
+}
+
+#loftloader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    z-index: 9999999;
+    width: 100%;
+    height: 100%;
+    background: 0 0!important
+}

@@ -46,103 +46,103 @@ $galeria = [
         'foto' => '02_DORMITORIO_CAM_01_f',
         'cat' => 'interior',
         'des' => 'Dormitorio',
-        'col' => '4'
+        'col' => '6'
     ],
     [
         'foto' => '02_DORMITORIO_CAM_02_Post',
         'cat' => 'interior',
         'des' => 'Dormitorio',
-        'col' => '4'
+        'col' => '6'
     ],
     [
         'foto' => '03_BAÑO_cam_01_F',
         'cat' => 'interior',
         'des' => 'Baño principal',
-        'col' => '4'
+        'col' => '6'
     ],
     [
         'foto' => '04_terraza_cam_01_f',
         'cat' => 'interior',
         'des' => 'Terraza',
-        'col' => '4'
+        'col' => '6'
     ],
     [
         'foto' => '04_terraza_cam_02_Post',
         'cat' => 'interior',
         'des' => 'Terraza',
-        'col' => '4'
+        'col' => '6'
     ],
     [
         'foto' => '05_baño_sec_cam_01_f',
         'cat' => 'interior',
         'des' => 'Baño',
-        'col' => '4'
+        'col' => '6'
     ],
     [
         'foto' => '05_baño_sec_cam_02',
         'cat' => 'interior',
         'des' => 'Baño',
-        'col' => '4'
+        'col' => '6'
     ],
     [
         'foto' => '06_Dormitorio_sec_cam_01_F',
         'cat' => 'interior',
         'des' => 'Dormitorio',
-        'col' => '4'
+        'col' => '6'
     ],
     [
         'foto' => '06_Dormitorio_sec_cam_02_F',
         'cat' => 'interior',
         'des' => 'Dormitorio',
-        'col' => '4'
+        'col' => '6'
     ],
     [
         'foto' => '01',
         'cat' => 'exterior',
         'des' => 'Vista norte',
-        'col' => '4'
+        'col' => '6'
     ],
     [
         'foto' => '02',
         'cat' => 'exterior',
         'des' => 'Vista norte',
-        'col' => '4'
+        'col' => '6'
     ],
     [
         'foto' => '03',
         'cat' => 'exterior',
         'des' => 'Vista sur',
-        'col' => '4'
+        'col' => '6'
     ],
     [
         'foto' => '04',
         'cat' => 'exterior',
         'des' => 'Vista norte area',
-        'col' => '4'
+        'col' => '6'
     ],
     [
         'foto' => '05',
         'cat' => 'exterior',
         'des' => 'Vista norte océano',
-        'col' => '4'
+        'col' => '6'
     ],
     [
         'foto' => '06',
         'cat' => 'exterior',
         'des' => 'Canchas de Paddle',
-        'col' => '4'
+        'col' => '6'
     ],
     [
         'foto' => '07',
         'cat' => 'exterior',
         'des' => 'Alberca exterior',
-        'col' => '4'
+        'col' => '6'
     ],
     [
         'foto' => '08',
         'cat' => 'exterior',
         'des' => 'Fachada Principal',
-        'col' => '4'
+        'col' => '6'
     ],
 
 ];

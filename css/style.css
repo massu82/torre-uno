@@ -52,10 +52,16 @@
  
 ----------------------------------------------------------------------------------- */
 
-
 /* ======= Google fonts (Oswald & Didact Gothic) ======= */
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+/* ======= Fuente Pesonal ======== */
+@font-face {
+    font-family: "TrajanPro";
+    src: local("TrajanPro"),
+    url("../fonts/Trajan-Pro.ttf") format("opentype") tech(color-COLRv1), url("../fonts/Trajan-Pro.ttf")
+    format("opentype"), url("../fonts/Trajan-Pro.ttf") format("woff");
+}
 
 /* ======= Basic style ======= */
 html,
@@ -97,7 +103,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-weight: 400;
     line-height: 1.25em;
     margin: 0 0 20px 0;
@@ -129,7 +135,7 @@ input,
 optgroup,
 select,
 textarea {
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
 }
 input[type="password"]:focus,
 input[type="email"]:focus,
@@ -214,7 +220,7 @@ input[type="checkbox"] {
 /* submit and alert success  */
 input[type="submit"] {
     font-weight: 300;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     text-transform: uppercase;
     background: #b19777;
     color: #fff;
@@ -338,7 +344,7 @@ blockquote cite:before {
     font-weight: 600;
 }
 .count {
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
 }
 .valign {
     display: -webkit-box;
@@ -452,7 +458,7 @@ blockquote cite:before {
 }
 .section-title {
     font-size: 40px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-weight: 400;
     color: #272727;
     text-transform: uppercase;
@@ -493,12 +499,12 @@ blockquote cite:before {
     color: #b19777;
 }
 .navbar .navbar-nav .nav-link {
-    font-family: 'Oswald', sans-serif;
-    font-size: 15px;
+    font-family: "TrajanPro";
+    font-size: 13px;
     font-weight: 300;
     color: #fff;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     margin: 5px 5px;
     -webkit-transition: all .4s;
     transition: all .4s;
@@ -548,7 +554,7 @@ blockquote cite:before {
     margin-bottom: 0px;
 }
 .nav-scroll .logo-wrapper .logo h2 {
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-size: 40px;
     font-weight: 400;
     margin-bottom: 0px;
@@ -562,7 +568,7 @@ blockquote cite:before {
 }
 .nav-scroll .logo-wrapper .logo span {
     display: block;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-size: 13px;
     color: #575757;
     font-weight: 400;
@@ -584,7 +590,7 @@ blockquote cite:before {
     padding: 30px 50px;
 }
 .logo-wrapper .logo h2 {
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-size: 45px;
     font-weight: 400;
     display: block;
@@ -601,7 +607,7 @@ blockquote cite:before {
 }
 .logo-wrapper .logo span {
     display: block;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-size: 12px;
     color: #777;
     font-weight: 400;
@@ -788,7 +794,7 @@ blockquote cite:before {
     font-size: 30px;
 }
 .header .caption h4 {
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
@@ -802,7 +808,7 @@ blockquote cite:before {
 .header .caption h1 {
     position: relative;
     margin-bottom: 20px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-size: 48px;
     text-transform: uppercase;
     line-height: 1.35em;
@@ -1022,13 +1028,13 @@ blockquote cite:before {
 .banner-header h5 {
     color: #b19777;
     font-size: 17px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-weight: 400;
     margin-bottom: 5px;
 }
 .banner-header h1 {
     font-size: 40px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-weight: 400;
     color: #b19777;
     position: relative;
@@ -1152,7 +1158,7 @@ blockquote cite:before {
 .video-fullscreen-wrap .video-fullscreen-inner h1 {
     position: relative;
     margin-bottom: 20px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-size: 48px;
     text-transform: uppercase;
     line-height: 1.35em;
@@ -1235,7 +1241,7 @@ blockquote cite:before {
     padding: 20px 15px;
     color: #272727;
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-weight: 300;
     letter-spacing: 5px;
     font-size: 13px;
@@ -1441,7 +1447,7 @@ blockquote cite:before {
     height: 100%
 }
 .position-title {
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 3px;
@@ -1583,7 +1589,7 @@ blockquote cite:before {
 .services .item .numb {
     font-size: 40px;
     font-weight: 600;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     position: absolute;
     bottom: 30px;
     right: 30px;
@@ -1689,7 +1695,7 @@ blockquote cite:before {
 }
 .services2 .services2-subtitle {
     color: #b19777;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-size: 13px;
     font-weight: 300;
     letter-spacing: 5px;
@@ -1773,7 +1779,7 @@ blockquote cite:before {
     transition: transform .2s ease-in-out
 }
 .services3-heading {
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-size: 16px;
     color: #272727;
     text-transform: uppercase;
@@ -2028,7 +2034,7 @@ blockquote cite:before {
 .sidebar-title h4 {
     position: relative;
     display: inline-block;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-size: 20px;
     line-height: 1.1em;
     color: #272727;
@@ -2336,7 +2342,7 @@ blockquote cite:before {
     font-weight: 300;
     letter-spacing: 5px;
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
 }
 @media only screen and (max-width: 991px) {
   .project-masonry-wrapper .project-masonry-item-content {
@@ -2418,7 +2424,7 @@ blockquote cite:before {
     transform: scale(0.95, 0.95);
 }
 .bauen-project-wrap h3 {
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-size: 20px;
     line-height: 1.25em;
     font-weight: 300;
@@ -2429,7 +2435,7 @@ blockquote cite:before {
 }
 .bauen-project-wrap p {
     color: #b19777;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-size: 13px;
     font-weight: 300;
     letter-spacing: 5px;
@@ -2572,7 +2578,7 @@ blockquote cite:before {
 }
 .projects4 .caption h6 {
     color: #b19777;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-size: 13px;
     font-weight: 300;
     letter-spacing: 5px;
@@ -2702,7 +2708,7 @@ blockquote cite:before {
     font-weight: 300;
     letter-spacing: 5px;
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
 }
 @media only screen and (max-width: 991px) {
   .gallery-masonry-wrapper .gallery-masonry-item-content {
@@ -3156,7 +3162,7 @@ button.mfp-arrow {
 .bauen-blog .item .con h5 a {
     color: #b19777;
     font-size: 25px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-weight: 300;
     margin-bottom: 0px;
     letter-spacing: 1px;
@@ -3483,7 +3489,7 @@ button.mfp-arrow {
     color: #777;
     font-weight: 300;
     border: 1px solid #efefef;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-size: 13px;
     border-radius: 100%;
 }
@@ -3636,7 +3642,7 @@ hr.border-2 {
     position: relative;
     padding-bottom: 2px;
     margin-bottom: -2px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 300;
@@ -3726,7 +3732,7 @@ hr.border-2 {
 }
 .butn-dark a {
     font-weight: 300;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     text-transform: uppercase;
     background: #b19777;
     color: #fff;
@@ -3769,7 +3775,7 @@ hr.border-2 {
 }
 .butn-light a {
     font-weight: 300;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     text-transform: uppercase;
     background: transparent;
     color: #fff;
@@ -3844,7 +3850,7 @@ hr.border-2 {
 }
 .main-footer .fothead h6 {
     margin-bottom: 0px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     color: #b19777;
     font-size: 17px;
 }
@@ -4019,7 +4025,7 @@ hr.border-2 {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     color: #b19777;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     z-index: 9999;
 }
 .loading-text.isdone {
@@ -4136,7 +4142,7 @@ hr.border-2 {
     padding-right: 60px;
     color: #777;
     transition: all 500ms ease;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
 }
 .accordion-box .block .acc-btn .count {
   color: #b19777;
@@ -4231,7 +4237,7 @@ hr.border-2 {
     margin: 0;
     font-size: 16px;
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     color: #b19777;
     margin-bottom: 20px;
     letter-spacing: 5px;
@@ -4251,7 +4257,7 @@ hr.border-2 {
 }
 .butn-pricing a {
     font-weight: 300;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     text-transform: uppercase;
     background: #b19777;
     color: #fff;
@@ -4410,7 +4416,7 @@ hr.border-2 {
     right: 20px;
 }
 .process .item h6 {
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     color: #272727;
     font-size: 16px;
     margin-bottom: 5px;
@@ -4480,7 +4486,7 @@ hr.border-2 {
     text-align: center;
     left: 22px;
     font-style: normal;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 1px;
@@ -4490,7 +4496,7 @@ hr.border-2 {
     transition: all .3s ease-in-out;
 }
 .process2.item h3 {
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-size: 16px;
     font-weight: 300;
     color: #272727;
@@ -4588,7 +4594,7 @@ hr.border-2 {
 .comming h6 {
     color: #b19777;
     font-size: 13px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 5px;
@@ -4598,7 +4604,7 @@ hr.border-2 {
 .comming h3 {
     font-size: 48px;
     line-height: 1.25em;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-weight: 400;
     color: #fff;
     position: relative;
@@ -4609,7 +4615,7 @@ hr.border-2 {
 .comming h2 {
     font-size: 48px;
     line-height: 1.25em;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-weight: 400;
     color: #fff;
     position: relative;
@@ -4666,7 +4672,7 @@ hr.border-2 {
 	color: #fff;
 	display: inline-block;
 	font-size: 13px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "TrajanPro";
     font-weight: 300;
     text-transform: uppercase;
 	letter-spacing: 5px;

@@ -18,13 +18,13 @@
 
         <div class="row bauen-gallery-items">
             <?php foreach ($galeria as $foto) : ?>
-                <div class="col-md-4 gallery-masonry-wrapper single-item <?= $foto['cat']; ?>">
+                <div class="col-md-<?= $foto['col']; ?> gallery-masonry-wrapper single-item <?= $foto['cat']; ?>">
                     <a href="img/galeria/bg/<?= $foto['foto']; ?>.jpg" title="<?= $foto['des']; ?>"
                        class="gallery-masonry-item-img-link img-zoom">
                         <div class="gallery-box">
                             <div class="gallery-img"><img src="img/galeria/<?= $foto['foto']; ?>.jpg"
                                                           class="img-fluid mx-auto d-block"
-                                                          alt="<?= $foto['des']; ?>"></div>
+                                                          alt="<?= $SITIO; ?>"></div>
                             <div class="gallery-masonry-item-img"></div>
                             <div class="gallery-masonry-item-content">
                                 <h4 class="gallery-masonry-item-title"><?= $foto['des']; ?></h4>

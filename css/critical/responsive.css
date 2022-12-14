@@ -1,0 +1,407 @@
+@media (max-width:1199px) {
+    section {
+        padding: 90px 0
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0 0 22px;
+        padding: 0;
+        letter-spacing: 0;
+        font-weight: 400
+    }
+    h1 {
+        font-size: 65px;
+        line-height: 65px
+    }
+    h2 {
+        font-size: 50px;
+        line-height: 55px
+    }
+    h3 {
+        font-size: 42px;
+        line-height: 48px
+    }
+    h4 {
+        font-size: 35px;
+        line-height: 41px
+    }
+    h5 {
+        font-size: 27px;
+        line-height: 32px
+    }
+    h6 {
+        font-size: 22px;
+        line-height: 27px
+    }
+    .lg-margin-15px-bottom {
+        margin-bottom: 15px!important
+    }
+    .lg-padding-seven-all {
+        padding: 7%
+    }
+    .lg-padding-15px-lr {
+        padding-left: 15px!important;
+        padding-right: 15px!important
+    }
+    .lg-width-60 {
+        width: 60%!important
+    }
+    .lg-line-height-auto {
+        line-height: normal
+    }
+    .text-extra-large {
+        font-size: 18px;
+        line-height: 24px
+    }
+    .portfolio-grid.work-4col li {
+        width: 33.333%
+    }
+    .portfolio-grid.work-4col li.grid-item-double {
+        width: 66.667%
+    }
+    .portfolio-grid.work-4col li.grid-item-double:last-child {
+        width: 100%
+    }
+    .swiper-full-screen .swiper-pagination {
+        bottom: 30px
+    }
+    .portfolio-grid.portfolio-metro-grid.work-4col li {
+        width: 50%
+    }
+    .portfolio-grid.portfolio-metro-grid.work-4col li.grid-item-double {
+        width: 50%
+    }
+    .portfolio-grid.portfolio-metro-grid.work-4col li.grid-item-double:last-child {
+        width: 50%
+    }
+    .portfolio-grid.portfolio-metro-grid.work-3col li {
+        width: 50%
+    }
+    .portfolio-grid.portfolio-metro-grid.work-3col li.grid-item-double {
+        width: 50%
+    }
+    .portfolio-grid.portfolio-metro-grid.work-3col li.grid-item-double:last-child {
+        width: 50%
+    }
+}
+
+@media (max-width:1050px) {
+    .parallax {
+        background-attachment: inherit
+    }
+}
+
+@media (max-width:991px) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0 0 18px;
+        padding: 0;
+        letter-spacing: 0;
+        font-weight: 400
+    }
+    h1 {
+        font-size: 57px;
+        line-height: 58px
+    }
+    h2 {
+        font-size: 43px;
+        line-height: 48px
+    }
+    h3 {
+        font-size: 36px;
+        line-height: 41px
+    }
+    h4 {
+        font-size: 30px;
+        line-height: 35px
+    }
+    h5 {
+        font-size: 24px;
+        line-height: 30px
+    }
+    h6 {
+        font-size: 22px;
+        line-height: 26px
+    }
+    p {
+        margin: 0 0 20px
+    }
+    section {
+        padding: 75px 0
+    }
+    section.half-section {
+        padding: 40px 0
+    }
+    header * {
+        transition-timing-function: none;
+        -moz-transition-timing-function: none;
+        -webkit-transition-timing-function: none;
+        -o-transition-timing-function: none;
+        -ms-transition-timing-function: none;
+        transition-duration: 0s;
+        -moz-transition-duration: 0s;
+        -webkit-transition-duration: 0s;
+        -ms-transition-duration: 0s;
+        -o-transition-duration: 0s
+    }
+    .md-margin-lr-auto {
+        margin-left: auto!important;
+        margin-right: auto!important
+    }
+    .md-margin-15px-bottom {
+        margin-bottom: 15px!important
+    }
+    .md-margin-30px-bottom {
+        margin-bottom: 30px!important
+    }
+    .md-padding-eight-all {
+        padding: 8%
+    }
+    .md-padding-50px-top {
+        padding-top: 50px!important
+    }
+    .md-padding-15px-lr {
+        padding-right: 15px!important;
+        padding-left: 15px!important
+    }
+    .md-width-70 {
+        width: 70%!important
+    }
+    .md-height-400px {
+        height: 400px!important
+    }
+    .parallax {
+        background-position: center
+    }
+    .portfolio-grid.work-4col li {
+        width: 50%
+    }
+    .portfolio-grid.work-4col li.grid-item-double {
+        width: 50%
+    }
+    .portfolio-grid.work-4col li.grid-item-double:last-child {
+        width: 50%
+    }
+    .portfolio-grid.work-3col li {
+        width: 50%
+    }
+    .portfolio-grid.work-3col li.grid-item-double {
+        width: 50%
+    }
+}
+
+@media (max-width:767px) {
+    body {
+        font-size: 12px;
+        line-height: 20px
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0 0 17px;
+        padding: 0;
+        letter-spacing: 0;
+        font-weight: 400
+    }
+    h1 {
+        font-size: 37px;
+        line-height: 42px
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 36px
+    }
+    h3 {
+        font-size: 28px;
+        line-height: 34px
+    }
+    h4 {
+        font-size: 24px;
+        line-height: 30px
+    }
+    h5 {
+        font-size: 20px;
+        line-height: 28px
+    }
+    h6 {
+        font-size: 18px;
+        line-height: 23px
+    }
+    .sm-no-margin-top {
+        margin-top: 0!important
+    }
+    .sm-no-margin-right {
+        margin-right: 0!important
+    }
+    .sm-margin-10px-top {
+        margin-top: 10px!important
+    }
+    .sm-margin-15px-bottom {
+        margin-bottom: 15px!important
+    }
+    .sm-margin-30px-bottom {
+        margin-bottom: 30px!important
+    }
+    .sm-margin-40px-bottom {
+        margin-bottom: 40px!important
+    }
+    .sm-padding-10px-all {
+        padding: 10px!important
+    }
+    .sm-padding-ten-top {
+        padding-top: 10%
+    }
+    .sm-padding-30px-top {
+        padding-top: 30px!important
+    }
+    .sm-padding-50px-tb {
+        padding-top: 50px!important;
+        padding-bottom: 50px!important
+    }
+    .sm-padding-five-lr {
+        padding-left: 5%;
+        padding-right: 5%
+    }
+    .sm-padding-15px-lr {
+        padding-left: 15px!important;
+        padding-right: 15px!important
+    }
+    .one-third-screen {
+        height: 350px
+    }
+    .one-second-screen {
+        height: 300px
+    }
+    .sm-width-100 {
+        width: 100%!important
+    }
+    .page-title-medium h1 {
+        font-size: 25px;
+        line-height: 30px
+    }
+    section {
+        padding: 50px 0
+    }
+    section.half-section {
+        padding: 25px 0
+    }
+    .mobile-height,
+    .swiper-full-screen {
+        height: auto!important
+    }
+    .mobile-height .full-screen,
+    .swiper-full-screen .full-screen {
+        height: 460px!important;
+        min-height: 460px!important
+    }
+    .portfolio-grid.work-4col li {
+        width: 100%
+    }
+    .portfolio-grid.work-4col li.grid-item-double {
+        width: 100%
+    }
+    .portfolio-grid.work-4col li.grid-item-double:last-child {
+        width: 100%
+    }
+    .portfolio-grid.work-3col li {
+        width: 100%
+    }
+    .portfolio-grid.work-3col li.grid-item-double {
+        width: 100%
+    }
+    .portfolio-grid.gutter-small {
+        margin: 0 7px
+    }
+    .portfolio-grid.gutter-small li {
+        padding: 7px 7px
+    }
+    .portfolio-grid.gutter-medium {
+        margin: 0
+    }
+    .portfolio-grid.gutter-medium li {
+        padding: 7px 0
+    }
+    .portfolio-grid.portfolio-metro-grid.work-4col li {
+        width: 100%
+    }
+    .portfolio-grid.portfolio-metro-grid.work-4col li.grid-item-double {
+        width: 100%
+    }
+    .portfolio-grid.portfolio-metro-grid.work-4col li.grid-item-double:last-child {
+        width: 100%
+    }
+    .portfolio-grid.portfolio-metro-grid.work-3col li {
+        width: 100%
+    }
+    .portfolio-grid.portfolio-metro-grid.work-3col li.grid-item-double {
+        width: 100%
+    }
+    .portfolio-grid.portfolio-metro-grid.work-3col li.grid-item-double:last-child {
+        width: 100%
+    }
+    .swiper-full-screen .swiper-pagination {
+        bottom: 20px
+    }
+    .btn-dual .btn {
+        margin: 10px auto!important;
+        display: table
+    }
+    .down-section {
+        bottom: 40px
+    }
+}
+
+@media (max-width:640px) {
+    .breadcrumb ul>li:after {
+        padding: 0 3px 0 5px
+    }
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:1) {
+    .parallax {
+        background-attachment: inherit;
+        background-position: center
+    }
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio:1) {
+    .parallax {
+        background-attachment: inherit;
+        background-position: center
+    }
+}
+
+@media (min-width:575px) {
+    .container {
+        max-width: 100%
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 750px
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 970px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1170px
+    }
+}

@@ -1,0 +1,15 @@
+/* magnific popup - v1.1.0 */
+
+.mfp-hide {
+    display: none !important;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+@media screen and (max-width:800px) and (orientation:landscape),
+screen and (max-height:300px) {
+    /* remove all paddings around the image on small screen */
+}

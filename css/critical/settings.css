@@ -1,0 +1,12 @@
+/*-----------------------------------------------------------------------------
+
+-	Revolution Slider 5.0 Default Style Settings -
+
+Screen Stylesheet
+
+version:   	5.4.5
+date:      	15/05/17
+author:		themepunch
+email:     	info@themepunch.com
+website:   	http://www.themepunch.com
+-----------------------------------------------------------------------------*/@font-face{font-family:revicons;src:url(../fonts/revicons/revicons.eot?5510888);src:url(../fonts/revicons/revicons.eot?5510888#iefix) format('embedded-opentype'),url(../fonts/revicons/revicons.woff?5510888) format('woff'),url(../fonts/revicons/revicons.ttf?5510888) format('truetype'),url(../fonts/revicons/revicons.svg?5510888#revicons) format('svg');font-weight:400;font-style:normal}.rev_slider_wrapper{position:relative;z-index:0;width:100%}.rev_slider{position:relative;overflow:visible}.rev_slider a{box-shadow:none}.rev_slider img{max-width:none!important;transition:none;margin:0;padding:0;border:none}.rev_slider>ul,.rev_slider>ul>li,.rev_slider>ul>li:before,.rev_slider_wrapper>ul{list-style:none!important;position:absolute;margin:0!important;padding:0!important;overflow-x:visible;overflow-y:visible;background-image:none;background-position:0 0;text-indent:0;top:0;left:0}.rev_slider>ul>li,.rev_slider>ul>li:before{visibility:hidden}.fullwidthbanner-container{padding:0;position:relative}.rev_slider embed,.rev_slider iframe,.rev_slider video{max-width:none!important}.fullwidthbanner-container{overflow:hidden}.fullwidthbanner-container .fullwidthabanner{width:100%;position:relative}@keyframes rev-ani-mouse{0%{opacity:1;top:29%}15%{opacity:1;top:50%}50%{opacity:0;top:50%}100%{opacity:0;top:29%}}@keyframes tp-rotateplane{0%{transform:perspective(120px) rotateX(0) rotateY(0)}50%{transform:perspective(120px) rotateX(-180.1deg) rotateY(0)}100%{transform:perspective(120px) rotateX(-180deg) rotateY(-179.9deg)}}@keyframes tp-scaleout{0%{transform:scale(0)}100%{transform:scale(1);opacity:0}}@keyframes tp-bouncedelay{0%,100%,80%{transform:scale(0)}40%{transform:scale(1)}}@keyframes tp-rotate{100%{transform:rotate(360deg)}}@keyframes tp-bounce{0%,100%{transform:scale(0)}50%{transform:scale(1)}}.perpetua::after{mix-blend-mode:soft-light;opacity:.5}.perpetua::after{background:linear-gradient(to bottom,#005b9a,#e6c13d)}.perpetua:after,.perpetua:before{content:'';display:block;height:100%;width:100%;top:0;left:0;position:absolute;pointer-events:none}.perpetua{position:relative}.perpetua img{width:100%;z-index:1}.perpetua:before{z-index:2}.perpetua:after{z-index:3}
