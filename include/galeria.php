@@ -8,7 +8,7 @@
         </div>
         <div class="row">
             <div class="col-md-12 text-center">
-                <ul class="bauen-gallery-filter">
+                <ul class="bauen-project-filter">
                     <li class="active" data-filter="*">Todo</li>
                     <li data-filter=".exterior">Exterior</li>
                     <li data-filter=".interior">Interior</li>
@@ -16,7 +16,7 @@
             </div>
         </div>
 
-        <div class="row bauen-gallery-items">
+        <div class="row bauen-project-items">
             <?php foreach ($galeria as $foto) : ?>
                 <div class="col-md-<?= $foto['col']; ?> gallery-masonry-wrapper single-item <?= $foto['cat']; ?>">
                     <a href="img/galeria/bg/<?= $foto['foto']; ?>.jpg" title="<?= $foto['des']; ?>"

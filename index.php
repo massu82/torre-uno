@@ -6,13 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <title><?= SITIO ?></title>
-    <link rel="shortcut icon" href="img/favicon.png"/>
-    <link rel="stylesheet" href="css/plugins.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
-    <link rel="stylesheet" href="css/magnific-popup.css"/>
+    <?php include('include/header.php'); ?>
 </head>
-<body>
+
 <?php include('include/navbar.php'); ?>
 <?php //include('include/header-video.php'); ?>
 <?php include('include/slider.php'); ?>
@@ -63,7 +59,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="item">
-                        <a href="architecture.html"> <img src="img/icons/icon-1.png" alt="">
+                        <a href="architecture.html"> <img src="img/icons/icon-1.png" alt="<?= SITIO ?>">
                             <h5>Architecture</h5>
                             <div class="line"></div>
                             <p>Architecture bibendum eros eget lacus the vulputate sit amet vehicuta nibhen ulicera in
@@ -74,7 +70,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="item">
-                        <a href="interior-design.html"> <img src="img/icons/icon-2.png" alt="">
+                        <a href="interior-design.html"> <img src="img/icons/icon-2.png" alt="<?= SITIO ?>">
                             <h5>Interior Design</h5>
                             <div class="line"></div>
                             <p>Architecture bibendum eros eget lacus the vulputate sit amet vehicuta nibhen ulicera in
@@ -85,7 +81,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="item">
-                        <a href="urban-design.html"> <img src="img/icons/icon-3.png" alt="">
+                        <a href="urban-design.html"> <img src="img/icons/icon-3.png" alt="<?= SITIO ?>">
                             <h5>Urban Design</h5>
                             <div class="line"></div>
                             <p>Architecture bibendum eros eget lacus the vulputate sit amet vehicuta nibhen ulicera in
@@ -169,25 +165,9 @@
         </div>
     </section>
     <?php include('include/clientes.php'); ?>
+    <?php //include ('include/map.php'); ?>
     <?php include('include/footer.php'); ?>
-</div>
-<!-- jQuery -->
-<script src="js/jquery-3.5.1.min.js"></script>
-<script src="js/jquery-migrate-3.0.0.min.js"></script>
-<script src="js/modernizr-2.6.2.min.js"></script>
-<script src="js/imagesloaded.pkgd.min.js"></script>
-<script src="js/jquery.isotope.v3.0.2.js"></script>
-<script src="js/pace.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/scrollIt.min.js"></script>
-<script src="js/jquery.waypoints.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.stellar.min.js"></script>
-<script src="js/jquery.magnific-popup.js"></script>
-<script src="js/YouTubePopUp.js"></script>
-<script src="js/before-after.js"></script>
-<script src="js/custom.js"></script>
-</body>
+
+    </body>
 </html>
 

@@ -146,6 +146,81 @@ $galeria = [
     ],
 
 ];
+$pb = "Planta Baja";
+$primer = "Primer Nivel";
+$segundo = "Segundo Nivel";
+$planos = [
+    [
+        'foto' => 'd-1001',
+        'nivel' => $pb,
+        'clave' => 'pb',
+        'nombre' => 'D-1001',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'd-1002',
+        'nivel' => $pb,
+        'clave' => 'pb',
+        'nombre' => 'D-1002',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'd-1003',
+        'nivel' => $pb,
+        'clave' => 'pb',
+        'nombre' => 'D-1003',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'd-1101',
+        'nivel' => $primer,
+        'clave' => '1n',
+        'nombre' => 'D-1101',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'd-1102',
+        'nivel' => $primer,
+        'clave' => '1n',
+        'nombre' => 'D-1102',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'd-1103',
+        'nivel' => $primer,
+        'clave' => '1n',
+        'nombre' => 'D-1103',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'd-1201',
+        'nivel' => $segundo,
+        'clave' => '2n',
+        'nombre' => 'D-1201',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'd-1202',
+        'nivel' => $segundo,
+        'clave' => '2n',
+        'nombre' => 'D-1202',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'd-1203',
+        'nivel' => $segundo,
+        'clave' => '2n',
+        'nombre' => 'D-1203',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'ph',
+        'nivel' => 'Tercer Nivel',
+        'clave' => 'ph',
+        'nombre' => 'Pent House',
+        'col' => '6'
+    ],
+];
 $plantas = [
     [
         'foto' => 'Planta-Sotano',
