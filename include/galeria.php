@@ -12,6 +12,7 @@
                     <li class="active" data-filter="*">Todo</li>
                     <li data-filter=".exterior">Exterior</li>
                     <li data-filter=".interior">Interior</li>
+                    <li data-filter=".amenidades">Amenidades</li>
                 </ul>
             </div>
         </div>

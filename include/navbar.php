@@ -3,7 +3,7 @@
 <nav class="navbar navbar-expand-lg">
     <div class="container">
         <!-- Logo -->
-        <a class="logo" href="./"> <img src="img/logo.png" alt="<?= SITIO; ?>"> </a>
+        <a class="logo" href="./"><img src="img/logo-white.png" alt="Luxury Apartments" class="px-2 py-4"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
                     class="icon-bar"><i class="ti-line-double"></i></span></button>

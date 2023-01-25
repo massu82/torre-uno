@@ -6,15 +6,21 @@
                 <h2 class="section-title">Vuelos en <span>Dron</span></h2>
             </div>
         </div>
-        <div class="row">
+        <!--<div class="row">
             <div class="col-md-8">
                 <p>Video gallery lorem ac erat suscipit bibendum. Nulla facilisi. Sedeuter nunc volutpat, mollis sapien
                     vel, conseyer turpeutionyer masin libero sempe. Fusceler mollis augue sit amet hendrerit vestibulum.
                     Duisteyerionyer venenatis lacus.</p>
             </div>
-        </div>
+        </div>-->
         <div class="row">
             <!-- 2 columns -->
+            <script type="text/javascript">
+                $("#panorama").ipanorama();
+            </script>
+            <div class="col-md-6" id="panorama">
+
+            </div>
             <div class="col-md-6">
                 <div class="vid-area mb-30">
                     <div class="vid-icon"><img src="img/port_2.jpg" alt="YouTube">

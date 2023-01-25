@@ -1,5 +1,5 @@
 <?php
-define('SITIO', 'Banyan Tree Luxury Apartments');
+define('SITIO', 'Luxury Apartments');
 define('VIDEO_HOME', 'https://vimeo.com/761561021/d6f5b43863');
 define('CTA', '#contacto');
 define('WHATS', '');
@@ -8,7 +8,7 @@ define('WHATS', '');
 $slider = [
     [
         'foto' => '1.jpg',
-        'texto' => 'Oportunidad de inversión inmobiliaria excepcional en la costa del pacífico mexicano',
+        'texto' => 'Propiedad operada por Banyan Tree al interior del Resort 5 diamantes',
         'cta' => '#contacto'
     ],
     [
@@ -128,13 +128,13 @@ $galeria = [
     ],
     [
         'foto' => '06',
-        'cat' => 'exterior',
+        'cat' => 'amenidades',
         'des' => 'Canchas de Paddle',
         'col' => '6'
     ],
     [
         'foto' => '07',
-        'cat' => 'exterior',
+        'cat' => 'amenidades',
         'des' => 'Alberca exterior',
         'col' => '6'
     ],
@@ -151,11 +151,18 @@ $primer = "Primer Nivel";
 $segundo = "Segundo Nivel";
 $planos = [
     [
+        'foto' => 'est',
+        'nivel' => $pb,
+        'clave' => 'es',
+        'nombre' => 'Estacionamiento',
+        'col' => '10'
+    ],
+    [
         'foto' => 'd-1001',
         'nivel' => $pb,
         'clave' => 'pb',
         'nombre' => 'D-1001',
-        'col' => '6'
+        'col' => '10'
     ],
     [
         'foto' => 'd-1002',

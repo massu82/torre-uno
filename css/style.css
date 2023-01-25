@@ -548,7 +548,7 @@ blockquote cite:before {
     color: #777;
 }
 .nav-scroll .logo {
-    width: 100px;
+    width: 190px;
 }
 .nav-scroll .logo-img {
     margin-bottom: 0px;
@@ -1100,6 +1100,7 @@ blockquote cite:before {
     overflow: hidden;
 }
 .content-lines-inner {
+    opacity: 0;
     position: absolute;
     width: 1140px;
     left: 50%;
@@ -4830,7 +4831,7 @@ hr.border-2 {
         margin-left: 0px;
     }
     .nav-scroll .logo {
-        width: 150px;
+        width: 190px;
     }
     .logo-img {
         margin-bottom: 0px;

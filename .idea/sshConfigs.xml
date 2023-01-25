@@ -2,7 +2,7 @@
 <project version="4">
   <component name="SshConfigs">
     <configs>
-      <sshConfig host="162.214.187.173" id="130526f0-d764-401f-b80a-688ad7da56d9" keyPath="E:\Dropbox\ssh\mstudio\mstudio" port="22022" nameFormat="DESCRIPTIVE" username="mstudio" useOpenSSHConfig="true" />
+      <sshConfig host="162.214.187.173" id="130526f0-d764-401f-b80a-688ad7da56d9" keyPath="E:\Dropbox\ssh\mstudio\mstudio.ppk" port="22022" nameFormat="DESCRIPTIVE" username="mstudio" useOpenSSHConfig="true" />
     </configs>
   </component>
 </project>
