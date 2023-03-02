@@ -13,16 +13,17 @@
 <?php include('include/navbar.php'); ?>
 <?php //include('include/header-video.php'); ?>
 <?php include('include/slider.php'); ?>
-<?php include('include/planos.php'); ?>
+<?php include('include/planos-map.php'); ?>
 <?php //include('include/vistas.php'); ?>
 <?php include('include/galeria.php'); ?>
-<?php include('include/videos.php'); ?>
-<?php include('include/servicios.php'); ?>
+<?php include('include/avance.php'); ?>
+<?php include('include/dron.php'); ?>
+<?php //include('include/servicios.php'); ?>
 
 
 <!-- Promo video - Testiominals -->
 <section class="testimonials">
-    <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/galeria/bg/05.jpg"
+    <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/galeria/bg/001.jpg"
          data-overlay-dark="3">
         <div class="container">
             <div class="row">

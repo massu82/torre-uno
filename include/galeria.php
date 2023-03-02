@@ -1,5 +1,5 @@
 <!-- Galeria -->
-<section class="section-padding2" id="galeria" data-scroll-index="4">
+<section class="section-padding2" id="galeria" data-scroll-index="3">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -11,12 +11,11 @@
                 <ul class="bauen-project-filter">
                     <li class="active" data-filter="*">Todo</li>
                     <li data-filter=".exterior">Exterior</li>
-                    <li data-filter=".interior">Interior</li>
+                    <!--<li data-filter=".interior">Interior</li>-->
                     <li data-filter=".amenidades">Amenidades</li>
                 </ul>
             </div>
         </div>
-
         <div class="row bauen-project-items">
             <?php foreach ($galeria as $foto) : ?>
                 <div class="col-md-<?= $foto['col']; ?> gallery-masonry-wrapper single-item <?= $foto['cat']; ?>">
@@ -35,7 +34,6 @@
                     </a>
                 </div>
             <?php endforeach; ?>
-
         </div>
     </div>
 </section>

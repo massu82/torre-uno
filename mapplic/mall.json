@@ -1,0 +1,167 @@
+{
+  "mapwidth": "1000",
+  "mapheight": "700",
+  "defaultstyle": "dark",
+  "styles": [
+    {
+      "class": "light",
+      "hover": {
+        "fill": "rgba(255, 99, 71, 0.5)"
+      },
+      "active": {
+        "fill": "#fff"
+      }
+    },
+    {
+      "class": "dark",
+      "hover": {
+        "fill": "rgba(255, 255, 255, 0.5)"
+      },
+      "active": {
+        "fill": "rgba(0, 0, 0, 0.2)"
+      }
+    }
+  ],
+  "levels": [
+    {
+      "id": "estacionamiento",
+      "title": "Estacionamiento",
+      "map": "maps/mall/est.svg",
+      "minimap": "maps/mall/planta-baja.jpg",
+      "locations": [
+        {
+          "id": "est",
+          "title": "Estacionamiento",
+          "about": "Estacionamiento",
+          "description": "Estacionamiento",
+          "x": "0.5697",
+          "y": "0.6",
+          "zoom": "1"
+        }
+      ]
+    },
+    {
+      "id": "plantabaja",
+      "title": "Planta Baja",
+      "map": "maps/mall/pb.svg",
+      "minimap": "maps/mall/planta-baja.jpg",
+      "locations": [
+        {
+          "id": "1001",
+          "title": "1001 Garden",
+          "about": "Panta Baja",
+          "description": "<table><tbody><tr><td>M2 de construcción</td><th>257.28</th></tr><tr><td>Recámaras</td><th>3</th></tr><tr><td>Baños</td><th>3</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
+          "x": "0.2197",
+          "y": "0.6",
+          "zoom": "1"
+        },
+        {
+          "id": "1002",
+          "title": "1002 Garden",
+          "about": "Planta Baja",
+          "description": "<table><tbody><tr><td>M2 de construcción</td><th>224.66</th></tr><tr><td>Recámaras</td><th>3</th></tr><tr><td>Baños</td><th>3</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
+          "x": "0.5",
+          "y": "0.6",
+          "zoom": "1"
+        },
+        {
+          "id": "1003",
+          "title": "1003 Garden",
+          "about": "Planta Baja",
+          "description": "<table><tbody><tr><td>M2 de construcción</td><th>226.43</th></tr><tr><td>Recámaras</td><th>3</th></tr><tr><td>Baños</td><th>3</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
+          "x": "0.80",
+          "y": "0.6",
+          "zoom": "1"
+        }
+      ]
+    },
+    {
+      "id": "primernivel",
+      "title": "Primer Nivel",
+      "map": "maps/mall/1n.svg",
+      "minimap": "maps/mall/planta-baja.jpg",
+      "locations": [
+        {
+          "id": "1101",
+          "title": "1101",
+          "about": "Primer Nivel",
+          "description": "<table><tbody><tr><td>M2 de construcción</td><th>157.78</th></tr><tr><td>Recámaras</td><th>3</th></tr><tr><td>Baños</td><th>3</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
+          "x": "0.2197",
+          "y": "0.6",
+          "zoom": "1"
+        },
+        {
+          "id": "1102",
+          "title": "1102",
+          "about": "Primer Nivel",
+          "description": "<table><tbody><tr><td>M2 de construcción</td><th>203.87</th></tr><tr><td>Recámaras</td><th>3</th></tr><tr><td>Baños</td><th>3</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
+          "x": "0.5",
+          "y": "0.6",
+          "zoom": "1"
+        },
+        {
+          "id": "1103",
+          "title": "1103",
+          "about": "Primer Nivel",
+          "description": "<table><tbody><tr><td>M2 de construcción</td><th>191.63</th></tr><tr><td>Recámaras</td><th>3</th></tr><tr><td>Baños</td><th>3</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
+          "x": "0.80",
+          "y": "0.6",
+          "zoom": "1"
+        }
+      ]
+    },
+    {
+      "id": "segundonivel",
+      "title": "Segundo Nivel",
+      "map": "maps/mall/2n.svg",
+      "minimap": "maps/mall/planta-baja.jpg",
+      "locations": [
+        {
+          "id": "1201",
+          "title": "1201",
+          "about": "Segundo Nivel",
+          "description": "<table><tbody><tr><td>M2 de construcción</td><th>191.59</th></tr><tr><td>Recámaras</td><th>2</th></tr><tr><td>Baños</td><th>2</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
+          "x": "0.2197",
+          "y": "0.6",
+          "zoom": "1"
+        },
+        {
+          "id": "1202",
+          "title": "1202",
+          "about": "Segundo Nivel",
+          "description": "<table><tbody><tr><td>M2 de construcción</td><th>201.04</th></tr><tr><td>Recámaras</td><th>3</th></tr><tr><td>Baños</td><th>3</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
+          "x": "0.5",
+          "y": "0.6",
+          "zoom": "1"
+        },
+        {
+          "id": "1203",
+          "title": "1203",
+          "about": "Segundo Nivel",
+          "description": "<table><tbody><tr><td>M2 de construcción</td><th>191.63</th></tr><tr><td>Recámaras</td><th>3</th></tr><tr><td>Baños</td><th>3</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
+          "x": "0.80",
+          "y": "0.6",
+          "zoom": "1"
+        }
+      ]
+    },
+    {
+      "id": "penthouse",
+      "title": "Pent House",
+      "map": "maps/mall/ph.svg",
+      "minimap": "maps/mall/planta-baja.jpg",
+      "locations": [
+        {
+          "id": "ph",
+          "title": "PH",
+          "about": "Pent House",
+          "description": "<table><tbody><tr><td>M2 de construcción</td><th>433.63</th></tr><tr><td>Recámaras</td><th>4</th></tr><tr><td>Baños</td><th>4</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
+          "x": "0.5697",
+          "y": "0.6",
+          "zoom": "1"
+        }
+      ]
+    }
+
+  ]
+}

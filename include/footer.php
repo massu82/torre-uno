@@ -79,6 +79,4 @@
 <script src="js/YouTubePopUp.js"></script>
 <script src="js/before-after.js"></script>
 <script src="js/custom.js"></script>
-<!--ipanorama-->
-<script type="text/javascript" src="js/three.min.js"></script>
-<script type="text/javascript" src="js/jquery.ipanorama.min.js"></script>
+

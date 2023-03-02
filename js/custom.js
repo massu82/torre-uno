@@ -50,10 +50,10 @@ $(function() {
             logo = $(".navbar .logo> img");
         if(bodyScroll > 100){
             navbar.addClass("nav-scroll");
-            logo.attr('src', 'img/logo-la.png');
+            logo.attr('src', 'img/logo.png');
         }else{
             navbar.removeClass("nav-scroll");
-            logo.attr('src', 'img/logo-la.png');
+            logo.attr('src', 'img/logo.png');
         }
     });
     
@@ -202,7 +202,7 @@ $(function() {
     });
     
     // Projects owlCarousel
-    $('.projects .owl-carousel').owlCarousel({
+   $('.projects .owl-carousel').owlCarousel({
         loop: true
         , margin: 30
         , mouseDrag: true
@@ -294,7 +294,7 @@ $(function() {
     
     // Clients owlCarousel
     $('.clients .owl-carousel').owlCarousel({
-        loop: true
+        loop: false
         , margin: 30
         , mouseDrag: true
         , autoplay: true

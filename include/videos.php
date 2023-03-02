@@ -15,12 +15,6 @@
         </div>-->
         <div class="row">
             <!-- 2 columns -->
-            <script type="text/javascript">
-                $("#panorama").ipanorama();
-            </script>
-            <div class="col-md-6" id="panorama">
-
-            </div>
             <div class="col-md-6">
                 <div class="vid-area mb-30">
                     <div class="vid-icon"><img src="img/port_2.jpg" alt="YouTube">
@@ -36,12 +30,12 @@
                     <div class="vid-icon"><img src="img/port_1.jpg" alt="YouTube">
                         <a class="video-gallery-button vid" href="https://youtu.be/0MZ5WsBOoHw"> <span
                                     class="video-gallery-polygon">
-                                        <i class="ti-control-play"></i>
+                                        <i class="ti-control-play text-xl-center"></i>
                                     </span> </a>
                     </div>
                 </div>
             </div>
-            <!-- 3 columns
+
             <div class="col-md-4">
                 <div class="vid-area mb-30">
                     <div class="vid-icon"><img src="img/slider/3.jpg" alt="YouTube">
@@ -71,7 +65,7 @@
                                     </span> </a>
                     </div>
                 </div>
-            </div>-->
+            </div>
         </div>
     </div>
 </section>

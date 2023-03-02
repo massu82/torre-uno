@@ -7,17 +7,17 @@ define('WHATS', '');
 // Slider
 $slider = [
     [
-        'foto' => '1.jpg',
-        'texto' => 'Propiedad operada por Banyan Tree al interior del Resort 5 diamantes',
+        'foto' => '3.jpg',
+        'texto' => 'Alberca y terraza privada',
         'cta' => '#contacto'
     ],
     [
         'foto' => '2.jpg',
-        'texto' => 'Íntimamente privado y lujoso',
+        'texto' => 'Proyecto vanguardista',
         'cta' => '#contacto'
     ],
     [
-        'foto' => '3.jpg',
+        'foto' => '1.jpg',
         'texto' => 'Únicos departamentos con marca Banyan Tree en el más exclusivo paraíso de México',
         'cta' => '#contacto'
     ],
@@ -30,7 +30,7 @@ $slider = [
 // Galería
 
 $galeria = [
-    [
+    /*[
         'foto' => '01_living_cam_01_F',
         'cat' => 'interior',
         'des' => 'Living',
@@ -95,7 +95,7 @@ $galeria = [
         'cat' => 'interior',
         'des' => 'Dormitorio',
         'col' => '6'
-    ],
+    ],*/
     [
         'foto' => '01',
         'cat' => 'exterior',
@@ -126,6 +126,55 @@ $galeria = [
         'des' => 'Vista norte océano',
         'col' => '6'
     ],
+
+    [
+        'foto' => '08',
+        'cat' => 'exterior',
+        'des' => 'Fachada Principal',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'front',
+        'cat' => 'amenidades',
+        'des' => 'Front',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'nao',
+        'cat' => 'amenidades',
+        'des' => 'Restaurante la Nao',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'gym',
+        'cat' => 'amenidades',
+        'des' => 'Gym',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'vistas',
+        'cat' => 'amenidades',
+        'des' => 'Bar las vistas',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'saffron',
+        'cat' => 'amenidades',
+        'des' => 'Restaurante Saffron',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'rocas',
+        'cat' => 'amenidades',
+        'des' => 'Restaurante las Rocas',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'spa',
+        'cat' => 'amenidades',
+        'des' => 'Spa',
+        'col' => '6'
+    ],
     [
         'foto' => '06',
         'cat' => 'amenidades',
@@ -139,11 +188,36 @@ $galeria = [
         'col' => '6'
     ],
     [
-        'foto' => '08',
-        'cat' => 'exterior',
-        'des' => 'Fachada Principal',
+        'foto' => '001',
+        'cat' => 'amenidades',
+        'des' => 'Servicio de excelencia',
         'col' => '6'
     ],
+    [
+        'foto' => '002',
+        'cat' => 'amenidades',
+        'des' => 'Vialidades al interior',
+        'col' => '6'
+    ],
+    [
+        'foto' => '005',
+        'cat' => 'amenidades',
+        'des' => 'Vistas al océano',
+        'col' => '6'
+    ],
+    [
+        'foto' => '003',
+        'cat' => 'amenidades',
+        'des' => 'Vistas 360',
+        'col' => '6'
+    ],
+    [
+        'foto' => '004',
+        'cat' => 'amenidades',
+        'des' => 'Experiencia Banyan Tree',
+        'col' => '6'
+    ],
+
 
 ];
 $pb = "Planta Baja";
@@ -155,77 +229,80 @@ $planos = [
         'nivel' => $pb,
         'clave' => 'es',
         'nombre' => 'Estacionamiento',
-        'col' => '10'
+        'col' => '12'
     ],
     [
         'foto' => 'd-1001',
         'nivel' => $pb,
         'clave' => 'pb',
-        'nombre' => 'D-1001',
-        'col' => '10'
+        'nombre' => '1001',
+        'col' => '12'
     ],
     [
         'foto' => 'd-1002',
         'nivel' => $pb,
         'clave' => 'pb',
-        'nombre' => 'D-1002',
-        'col' => '6'
+        'nombre' => '1002',
+        'col' => '12'
     ],
     [
         'foto' => 'd-1003',
         'nivel' => $pb,
         'clave' => 'pb',
-        'nombre' => 'D-1003',
-        'col' => '6'
+        'nombre' => '1003',
+        'col' => '12'
     ],
+
     [
         'foto' => 'd-1101',
         'nivel' => $primer,
         'clave' => '1n',
-        'nombre' => 'D-1101',
-        'col' => '6'
+        'nombre' => '1101',
+        'col' => '12'
     ],
     [
         'foto' => 'd-1102',
         'nivel' => $primer,
         'clave' => '1n',
-        'nombre' => 'D-1102',
-        'col' => '6'
+        'nombre' => '1102',
+        'col' => '12'
     ],
     [
         'foto' => 'd-1103',
         'nivel' => $primer,
         'clave' => '1n',
-        'nombre' => 'D-1103',
-        'col' => '6'
+        'nombre' => '1103',
+        'col' => '12'
     ],
+
     [
         'foto' => 'd-1201',
         'nivel' => $segundo,
         'clave' => '2n',
-        'nombre' => 'D-1201',
-        'col' => '6'
+        'nombre' => '1201',
+        'col' => '12'
     ],
     [
         'foto' => 'd-1202',
         'nivel' => $segundo,
         'clave' => '2n',
-        'nombre' => 'D-1202',
-        'col' => '6'
+        'nombre' => '1202',
+        'col' => '12'
     ],
     [
         'foto' => 'd-1203',
         'nivel' => $segundo,
         'clave' => '2n',
-        'nombre' => 'D-1203',
-        'col' => '6'
+        'nombre' => '1203',
+        'col' => '12'
     ],
+
     [
         'foto' => 'ph',
         'nivel' => 'Tercer Nivel',
         'clave' => 'ph',
         'nombre' => 'Pent House',
-        'col' => '6'
+        'col' => '12'
     ],
 ];
 $plantas = [
@@ -266,24 +343,45 @@ $clientes = [
         'link' => 'https://banyantree.gmd.mx/',
         'nombre' => 'Banyan Tree Residences'
     ],
-    [
-        'logo' => '2.png',
-        'link' => 'https://marinacabomarques.gmd.mx/',
-        'nombre' => 'Marina Cabo Marqués'
-    ],
-    [
-        'logo' => '3.png',
-        'link' => 'https://cabomarques.gmd.mx/proyectos/los-riscos/',
-        'nombre' => 'Los Riscos Cabo Marqués'
-    ],
+
     [
         'logo' => '5.png',
         'link' => 'https://cabomarques.gmd.mx/',
         'nombre' => 'Cabo Marqués'
     ],
     [
-        'logo' => '4.png',
-        'link' => 'https://www.gmd.mx/',
-        'nombre' => 'Gropo Mexicano de Desarrollo'
+        'logo' => '6.png',
+        'link' => 'https://www.gmd.mx/gmd-resorts.html',
+        'nombre' => 'Gropo Mexicano de Desarrollo Resorts'
     ],
+];
+$avances = [
+    [
+        'foto' => '01',
+        'nivel' => '',
+        'clave' => 'es',
+        'nombre' => 'Avance',
+        'col' => '6'
+    ],
+    [
+        'foto' => '02',
+        'nivel' => '',
+        'clave' => 'pb',
+        'nombre' => 'Avance',
+        'col' => '6'
+    ],
+    [
+        'foto' => '03',
+        'nivel' => '',
+        'clave' => 'pb',
+        'nombre' => 'Avance',
+        'col' => '6'
+    ],
+    [
+        'foto' => '04',
+        'nivel' => '',
+        'clave' => 'pb',
+        'nombre' => 'Avance',
+        'col' => '6'
+    ]
 ];
