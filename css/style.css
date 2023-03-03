@@ -5672,3 +5672,7 @@ hr.border-2 {
         text-align: center;
     }
 }
+
+div.pb{
+    background-image: url("../img/thumbs/pb.jpg");
+}

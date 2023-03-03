@@ -361,27 +361,41 @@ $avances = [
         'nivel' => '',
         'clave' => 'es',
         'nombre' => 'Avance',
-        'col' => '6'
+        'col' => '4'
     ],
     [
         'foto' => '02',
         'nivel' => '',
         'clave' => 'pb',
         'nombre' => 'Avance',
-        'col' => '6'
+        'col' => '4'
     ],
     [
         'foto' => '03',
         'nivel' => '',
         'clave' => 'pb',
         'nombre' => 'Avance',
-        'col' => '6'
+        'col' => '4'
     ],
     [
         'foto' => '04',
         'nivel' => '',
         'clave' => 'pb',
         'nombre' => 'Avance',
-        'col' => '6'
+        'col' => '4'
+    ],
+    [
+        'foto' => '05',
+        'nivel' => '',
+        'clave' => 'pb',
+        'nombre' => 'Avance',
+        'col' => '4'
+    ],
+    [
+        'foto' => '06',
+        'nivel' => '',
+        'clave' => 'pb',
+        'nombre' => 'Avance',
+        'col' => '4'
     ]
 ];
