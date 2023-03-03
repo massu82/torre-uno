@@ -1,3 +1,4 @@
+<meta name="robots" content="index, follow">
 <link rel="shortcut icon" href="img/favicon.png"/>
 <link rel="stylesheet" href="css/plugins.css"/>
 <link rel="stylesheet" href="css/style.css"/>
