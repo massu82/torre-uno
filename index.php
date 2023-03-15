@@ -16,6 +16,7 @@
 <?php include('include/planos-map.php'); ?>
 <?php //include('include/vistas.php'); ?>
 <?php include('include/galeria.php'); ?>
+<?php include('include/propiedad.php'); ?>
 <?php include('include/avance.php'); ?>
 <?php include('include/dron.php'); ?>
 <?php //include('include/servicios.php'); ?>
@@ -94,8 +95,6 @@
 <?php include('include/clientes.php'); ?>
 <?php //include ('include/map.php'); ?>
 <?php include('include/footer.php'); ?>
-
-
 </body>
 </html>
 

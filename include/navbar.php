@@ -10,11 +10,12 @@
         <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link active" href="index.php" data-scroll-nav="0">Home</a></li>
+
                 <li class="nav-item"><a class="nav-link" href="#planta" data-scroll-nav="1">Proyecto</a></li>
                 <li class="nav-item"><a class="nav-link" href="#galeria" data-scroll-nav="3">Galería</a></li>
-                <li class="nav-item"><a class="nav-link" href="#avance" data-scroll-nav="4">Avance de Obra</a></li>
-                <li class="nav-item"><a class="nav-link" href="#vistas" data-scroll-nav="5">Vistas con Dron</a></li>
+                <li class="nav-item"><a class="nav-link" href="#productos" data-scroll-nav="4">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#avance">Avance</a></li>
+                <li class="nav-item"><a class="nav-link" href="#vistas" data-scroll-nav="5">Vistas</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contacto" data-scroll-nav="6">Contacto</a></li>
 
             </ul>

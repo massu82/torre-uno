@@ -11,10 +11,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mb-30 animate-box" data-animate-effect="fadeInUp">
-                    <h2 class="section-title"><span>Proyecto</span></h2>
+                    <h2 class="section-title"><span>Beneficios</span></h2>
                     <div class="about-img">
                         <div class="img"><img src="img/about.jpg" class="img-fluid" alt="<?= SITIO ?>"></div>
-                        <div class="about-img-2 about-buro">Banyan Tree Luxury Apartments</div>
+                        <div class="about-img-2 about-buro">Luxury Apartments</div>
                     </div>
                     <p>Al invertir en <b>Banyan Tree Luxury Apartments Cabo Marqués</b>, los propietarios cuentan
                         con excelentes opciones de inversión, permitiéndoles ser dueños de un departamento de clase
@@ -26,7 +26,6 @@
 
                 </div>
                 <div class="col-md-6 animate-box" data-animate-effect="fadeInUp">
-                    <h2 class="services2-subtitle">Beneficios Banyan Tree Luxury Apartment</h2>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">Proyecto vanguardista</li>
                         <li class="list-group-item">Alberca y terraza privada</li>

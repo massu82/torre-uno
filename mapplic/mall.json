@@ -14,11 +14,14 @@
     },
     {
       "class": "dark",
+      "base": {
+        "fill": "rgba(255, 255, 255, 0.6)"
+      },
       "hover": {
-        "fill": "rgba(255, 255, 255, 0.5)"
+        "fill": "rgba(255, 255, 255, 0)"
       },
       "active": {
-        "fill": "rgba(0, 0, 0, 0.2)"
+        "fill": "rgba(255, 255, 255, 0)"
       }
     }
   ],
@@ -148,7 +151,7 @@
     {
       "id": "penthouse",
       "title": "Pent House",
-      "map": "maps/mall/ph.svg",
+      "map": "maps/mall/ph.jpg",
       "minimap": "maps/mall/planta-baja.jpg",
       "locations": [
         {
@@ -161,7 +164,57 @@
           "zoom": "1"
         }
       ]
+    },
+    {
+      "id": "techos",
+      "title": "Techos",
+      "map": "maps/mall/techos.svg",
+      "minimap": "maps/mall/planta-baja.jpg",
+      "locations": [
+        {
+          "id": "techos",
+          "title": "techos",
+          "about": "Conjunto de cubiertas",
+          "description": "",
+          "x": "0.5697",
+          "y": "0.6",
+          "zoom": "1"
+        }
+      ]
+    },
+    {
+      "id": "longitudinal",
+      "title": "Corte Longitudinal",
+      "map": "maps/mall/longitudinal.jpg",
+      "minimap": "maps/mall/planta-baja.jpg",
+      "locations": [
+        {
+          "id": "longitudinal",
+          "title": "Longitudinal",
+          "about": "Corte Longitudinal",
+          "description": "",
+          "x": "0.5697",
+          "y": "0.6",
+          "zoom": "1"
+        }
+      ]
+    },
+    {
+      "id": "transversal",
+      "title": "Corte Transversal",
+      "map": "maps/mall/transversal.jpg",
+      "minimap": "maps/mall/planta-baja.jpg",
+      "locations": [
+        {
+          "id": "transversal",
+          "title": "Transversal",
+          "about": "Corte Transversal",
+          "description": "",
+          "x": "0.5697",
+          "y": "0.6",
+          "zoom": "1"
+        }
+      ]
     }
-
   ]
 }

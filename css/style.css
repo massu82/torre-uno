@@ -111,7 +111,9 @@ h6 {
     line-height: 1.25em;
     margin: 0 0 20px 0;
 }
-
+.owl-item h2{
+    text-shadow: 2px 2px #000000;
+}
 img {
     width: 100%;
     height: auto;
