@@ -1,4 +1,4 @@
-<!-- Proyecto -->
+<!-- Beneficios -->
 <div class="content-wrapper">
     <!-- Lines -->
     <section class="content-lines-wrapper">
@@ -6,8 +6,7 @@
             <div class="content-lines"></div>
         </div>
     </section>
-    <!-- Proyecto -->
-    <section class="about section-padding" id="proyecto" data-scroll-index="1">
+    <section class="about section-padding" id="beneficios" data-scroll-index="1">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mb-30 animate-box" data-animate-effect="fadeInUp">
@@ -50,11 +49,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="row">
-                <img src="img/plantas/niveles.png" width="100%" alt="" class="m-lg-5 mx-auto"/>
-                <iframe src="mapplic/index.html" width="100%" height="650" frameborder="0" style="z-index: 9"></iframe>
-            </div>
+
 
         </div>
     </section>
-
+</div>

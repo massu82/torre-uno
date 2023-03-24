@@ -1,5 +1,5 @@
 <!-- Galeria -->
-<section class="section-padding2" id="galeria" data-scroll-index="3">
+<section class="section-padding2" id="galeria" data-scroll-index="4">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">

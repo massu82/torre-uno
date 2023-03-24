@@ -1,5 +1,5 @@
 <!-- Galeria -->
-<section class="section-padding2" id="avance">
+<section class="section-padding2" id="avance" data-scroll-index="6">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">

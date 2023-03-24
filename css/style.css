@@ -49,20 +49,17 @@
  47. Comming soon style
  48. Overlay Effect Bg image style - [NEW]
  50. Responsive (Media Query)
- 
 ----------------------------------------------------------------------------------- */
-
 /* ======= Google fonts (Oswald & Didact Gothic) ======= */
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Oswald:wght@200;300;400;500;600;700&display=swap');
-
 /* ======= Fuente Pesonal ======== */
 @font-face {
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     src: local("TrajanPro"),
-    url("../fonts/Trajan-Pro.ttf") format("opentype") tech(color-COLRv1), url("../fonts/Trajan-Pro.ttf") format("opentype"), url("../fonts/Trajan-Pro.ttf") format("woff");
+    url("Reforma1969/Reforma1969-Blanca.ttf") format("opentype") tech(color-COLRv1), url("Reforma1969/Reforma1969-Blanca.ttf") format("opentype"), url("Reforma1969/Reforma1969-Blanca.ttf") format("woff");
 }
-
 /* ======= Basic style ======= */
+@import url('https://fonts.googleapis.com/css2?family=Niramit&display=swap');
 html,
 body {
     -moz-osx-font-smoothing: grayscale;
@@ -82,7 +79,7 @@ body {
 }
 
 body {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Niramit', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.75em;
@@ -92,7 +89,7 @@ body {
 }
 
 p {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Niramit', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.75em;
@@ -106,14 +103,16 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-weight: 400;
     line-height: 1.25em;
     margin: 0 0 20px 0;
 }
-.owl-item h2{
+
+.owl-item h2 {
     text-shadow: 2px 2px #000000;
 }
+
 img {
     width: 100%;
     height: auto;
@@ -133,7 +132,6 @@ a:hover {
     text-decoration: none;
     color: inherit;
 }
-
 b {
     font-weight: 400;
     color: #b19777;
@@ -145,7 +143,7 @@ input,
 optgroup,
 select,
 textarea {
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
 }
 
 input[type="password"]:focus,
@@ -175,7 +173,7 @@ textarea {
     display: block;
     width: 100%;
     line-height: 1.5em;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Niramit', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #777;
@@ -239,7 +237,7 @@ input[type="checkbox"] {
 /* submit and alert success  */
 input[type="submit"] {
     font-weight: 300;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     text-transform: uppercase;
     background: #b19777;
     color: #fff;
@@ -379,7 +377,7 @@ blockquote cite:before {
 }
 
 .count {
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
 }
 
 .valign {
@@ -512,7 +510,7 @@ blockquote cite:before {
 
 .section-title {
     font-size: 40px;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-weight: 400;
     color: #272727;
     text-transform: uppercase;
@@ -557,13 +555,13 @@ blockquote cite:before {
 }
 
 .navbar .navbar-nav .nav-link {
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-size: 13px;
-    font-weight: 300;
+    font-weight: 200;
     color: #fff;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    margin: 5px 5px;
+    letter-spacing: 1px;
+    margin: 5px 3px;
     -webkit-transition: all .4s;
     transition: all .4s;
 }
@@ -623,7 +621,7 @@ blockquote cite:before {
 }
 
 .nav-scroll .logo-wrapper .logo h2 {
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-size: 40px;
     font-weight: 400;
     margin-bottom: 0px;
@@ -638,7 +636,7 @@ blockquote cite:before {
 
 .nav-scroll .logo-wrapper .logo span {
     display: block;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-size: 13px;
     color: #575757;
     font-weight: 400;
@@ -663,7 +661,7 @@ blockquote cite:before {
 }
 
 .logo-wrapper .logo h2 {
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-size: 45px;
     font-weight: 400;
     display: block;
@@ -682,7 +680,7 @@ blockquote cite:before {
 
 .logo-wrapper .logo span {
     display: block;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-size: 12px;
     color: #777;
     font-weight: 400;
@@ -758,7 +756,7 @@ blockquote cite:before {
 .dropdown-menu .dropdown-item,
 .sub-menu .dropdown-item {
     padding: 5px 15px;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Niramit', sans-serif;
     font-size: 15px;
     font-weight: 300;
     color: #272727;
@@ -897,7 +895,7 @@ blockquote cite:before {
 }
 
 .header .caption h4 {
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
@@ -912,7 +910,7 @@ blockquote cite:before {
 .header .caption h1 {
     position: relative;
     margin-bottom: 20px;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-size: 48px;
     text-transform: uppercase;
     line-height: 1.35em;
@@ -1158,14 +1156,14 @@ blockquote cite:before {
 .banner-header h5 {
     color: #b19777;
     font-size: 17px;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-weight: 400;
     margin-bottom: 5px;
 }
 
 .banner-header h1 {
     font-size: 40px;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-weight: 400;
     color: #b19777;
     position: relative;
@@ -1308,7 +1306,7 @@ blockquote cite:before {
 .video-fullscreen-wrap .video-fullscreen-inner h1 {
     position: relative;
     margin-bottom: 20px;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-size: 48px;
     text-transform: uppercase;
     line-height: 1.35em;
@@ -1401,7 +1399,7 @@ blockquote cite:before {
     padding: 20px 15px;
     color: #272727;
     text-transform: uppercase;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-weight: 300;
     letter-spacing: 3px;
     font-size: 13px;
@@ -1512,7 +1510,7 @@ blockquote cite:before {
 }
 
 .team-details .content .info-list .list-title {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Niramit', sans-serif;
     text-indent: 0;
     width: auto;
     display: inline;
@@ -1632,7 +1630,7 @@ blockquote cite:before {
 }
 
 .position-title {
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 3px;
@@ -1647,7 +1645,7 @@ blockquote cite:before {
 }
 
 .position-title span {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Niramit', sans-serif;
     color: #777;
     display: block;
     text-transform: none;
@@ -1655,7 +1653,7 @@ blockquote cite:before {
 }
 
 .position-location {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Niramit', sans-serif;
     font-size: 16px;
     -webkit-transition: color .3s;
     transition: color .3s;
@@ -1666,7 +1664,7 @@ blockquote cite:before {
 }
 
 .position-location span {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Niramit', sans-serif;
     color: #777;
     display: block;
     text-transform: none;
@@ -1681,7 +1679,7 @@ blockquote cite:before {
 }
 
 .position-time span {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Niramit', sans-serif;
     color: #272727;
     display: block;
     text-transform: none;
@@ -1796,7 +1794,7 @@ blockquote cite:before {
 .services .item .numb {
     font-size: 40px;
     font-weight: 600;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     position: absolute;
     bottom: 30px;
     right: 30px;
@@ -1912,7 +1910,7 @@ blockquote cite:before {
 
 .services2 .services2-subtitle {
     color: #b19777;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-size: 13px;
     font-weight: 300;
     letter-spacing: 5px;
@@ -2007,7 +2005,7 @@ blockquote cite:before {
 }
 
 .services3-heading {
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-size: 16px;
     color: #272727;
     text-transform: uppercase;
@@ -2292,7 +2290,7 @@ blockquote cite:before {
 .sidebar-title h4 {
     position: relative;
     display: inline-block;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-size: 20px;
     line-height: 1.1em;
     color: #272727;
@@ -2636,7 +2634,7 @@ blockquote cite:before {
     font-weight: 300;
     letter-spacing: 5px;
     text-transform: uppercase;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
 }
 
 @media only screen and (max-width: 991px) {
@@ -2695,7 +2693,7 @@ blockquote cite:before {
     font-size: 16px;
     cursor: pointer;
     color: #999;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Niramit', sans-serif;
     font-weight: 400;
 }
 
@@ -2734,7 +2732,7 @@ blockquote cite:before {
 }
 
 .bauen-project-wrap h3 {
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-size: 20px;
     line-height: 1.25em;
     font-weight: 300;
@@ -2746,7 +2744,7 @@ blockquote cite:before {
 
 .bauen-project-wrap p {
     color: #b19777;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-size: 13px;
     font-weight: 300;
     letter-spacing: 5px;
@@ -2912,7 +2910,7 @@ blockquote cite:before {
 
 .projects4 .caption h6 {
     color: #b19777;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-size: 13px;
     font-weight: 300;
     letter-spacing: 5px;
@@ -2968,7 +2966,7 @@ blockquote cite:before {
     font-size: 16px;
     cursor: pointer;
     color: #999;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Niramit', sans-serif;
     font-weight: 400;
 }
 
@@ -3058,7 +3056,7 @@ blockquote cite:before {
     font-weight: 300;
     letter-spacing: 5px;
     text-transform: uppercase;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
 }
 
 @media only screen and (max-width: 991px) {
@@ -3109,7 +3107,7 @@ blockquote cite:before {
 .project-page h6 {
     margin-bottom: 0px;
     position: relative;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Niramit', sans-serif;
     font-size: 16px;
     color: #777;
 }
@@ -3126,7 +3124,7 @@ blockquote cite:before {
 .project-bar h5 {
     color: #b19777;
     font-size: 16px;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Niramit', sans-serif;
     font-weight: 400;
     margin-bottom: 5px;
 }
@@ -3482,7 +3480,7 @@ button.mfp-arrow {
     margin-bottom: 0px;
     padding-top: 7px;
     font-weight: 400;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Niramit', sans-serif;
 }
 
 .testimonials .item .info span {
@@ -3577,7 +3575,7 @@ button.mfp-arrow {
 .bauen-blog .item .con h5 a {
     color: #b19777;
     font-size: 25px;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-weight: 300;
     margin-bottom: 0px;
     letter-spacing: 1px;
@@ -3645,7 +3643,7 @@ button.mfp-arrow {
     color: #777;
     letter-spacing: 2px;
     font-size: 10px;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Niramit', sans-serif;
     text-transform: uppercase;
     font-weight: 300;
 }
@@ -3694,7 +3692,7 @@ button.mfp-arrow {
     font-size: 11px;
     letter-spacing: 2px;
     color: #777;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Niramit', sans-serif;
     text-transform: uppercase;
 }
 
@@ -3784,7 +3782,7 @@ button.mfp-arrow {
     font-size: 12px;
     letter-spacing: 2px;
     color: #b19777;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Niramit', sans-serif;
     text-transform: uppercase;
     margin-bottom: 5px;
 }
@@ -3961,7 +3959,7 @@ button.mfp-arrow {
     color: #777;
     font-weight: 300;
     border: 1px solid #efefef;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-size: 13px;
     border-radius: 100%;
 }
@@ -4134,7 +4132,7 @@ hr.border-2 {
     position: relative;
     padding-bottom: 2px;
     margin-bottom: -2px;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 300;
@@ -4177,7 +4175,7 @@ hr.border-2 {
 .bauen-comment-section h3 {
     font-size: 16px;
     color: #b19777;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Niramit', sans-serif;
     font-weight: 400;
 }
 
@@ -4237,7 +4235,7 @@ hr.border-2 {
 
 .butn-dark a {
     font-weight: 300;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     text-transform: uppercase;
     background: #b19777;
     color: #fff;
@@ -4286,7 +4284,7 @@ hr.border-2 {
 
 .butn-light a {
     font-weight: 300;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     text-transform: uppercase;
     background: transparent;
     color: #fff;
@@ -4371,13 +4369,13 @@ hr.border-2 {
 
 .main-footer .fothead h6 {
     margin-bottom: 0px;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     color: #b19777;
     font-size: 17px;
 }
 
 .main-footer .fotcont .fothead h6 {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Niramit', sans-serif;
     font-weight: 400;
     position: relative;
     padding-bottom: 5px;
@@ -4567,7 +4565,7 @@ hr.border-2 {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     color: #b19777;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     z-index: 9999;
 }
 
@@ -4695,7 +4693,7 @@ hr.border-2 {
     padding-right: 60px;
     color: #777;
     transition: all 500ms ease;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
 }
 
 .accordion-box .block .acc-btn .count {
@@ -4718,7 +4716,7 @@ hr.border-2 {
 }
 
 .accordion-box .block .acc-btn.active {
-    background-color: # #f4f4f4;
+    background-color: #f4f4f4;
     color: #b19777;
 }
 
@@ -4807,7 +4805,7 @@ hr.border-2 {
     margin: 0;
     font-size: 16px;
     text-transform: uppercase;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     color: #b19777;
     margin-bottom: 20px;
     letter-spacing: 5px;
@@ -4830,7 +4828,7 @@ hr.border-2 {
 
 .butn-pricing a {
     font-weight: 300;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     text-transform: uppercase;
     background: #b19777;
     color: #fff;
@@ -4897,7 +4895,7 @@ hr.border-2 {
     padding: 20px 60px 20px 30px;
     height: 70px;
     display: block;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Niramit', sans-serif;
     font-size: 16px;
     background: #f4f4f4;
     color: #777;
@@ -5010,7 +5008,7 @@ hr.border-2 {
 }
 
 .process .item h6 {
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     color: #272727;
     font-size: 16px;
     margin-bottom: 5px;
@@ -5085,7 +5083,7 @@ hr.border-2 {
     text-align: center;
     left: 22px;
     font-style: normal;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 1px;
@@ -5096,7 +5094,7 @@ hr.border-2 {
 }
 
 .process2.item h3 {
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-size: 16px;
     font-weight: 300;
     color: #272727;
@@ -5208,7 +5206,7 @@ hr.border-2 {
 .comming h6 {
     color: #b19777;
     font-size: 13px;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 5px;
@@ -5219,7 +5217,7 @@ hr.border-2 {
 .comming h3 {
     font-size: 48px;
     line-height: 1.25em;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-weight: 400;
     color: #fff;
     position: relative;
@@ -5231,7 +5229,7 @@ hr.border-2 {
 .comming h2 {
     font-size: 48px;
     line-height: 1.25em;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-weight: 400;
     color: #fff;
     position: relative;
@@ -5295,7 +5293,7 @@ hr.border-2 {
     color: #fff;
     display: inline-block;
     font-size: 13px;
-    font-family: "TrajanPro";
+    font-family: "Reforma1969";
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -5675,6 +5673,6 @@ hr.border-2 {
     }
 }
 
-div.pb{
+div.pb {
     background-image: url("../img/thumbs/pb.jpg");
 }

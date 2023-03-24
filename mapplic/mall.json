@@ -29,8 +29,7 @@
     {
       "id": "estacionamiento",
       "title": "Estacionamiento",
-      "map": "maps/mall/est.svg",
-      "minimap": "maps/mall/planta-baja.jpg",
+      "map": "maps/mall/est.jpg",
       "locations": [
         {
           "id": "est",
@@ -47,7 +46,7 @@
       "id": "plantabaja",
       "title": "Planta Baja",
       "map": "maps/mall/pb.svg",
-      "minimap": "maps/mall/planta-baja.jpg",
+      
       "locations": [
         {
           "id": "1001",
@@ -82,7 +81,7 @@
       "id": "primernivel",
       "title": "Primer Nivel",
       "map": "maps/mall/1n.svg",
-      "minimap": "maps/mall/planta-baja.jpg",
+      
       "locations": [
         {
           "id": "1101",
@@ -117,7 +116,7 @@
       "id": "segundonivel",
       "title": "Segundo Nivel",
       "map": "maps/mall/2n.svg",
-      "minimap": "maps/mall/planta-baja.jpg",
+      
       "locations": [
         {
           "id": "1201",
@@ -152,7 +151,7 @@
       "id": "penthouse",
       "title": "Pent House",
       "map": "maps/mall/ph.jpg",
-      "minimap": "maps/mall/planta-baja.jpg",
+      
       "locations": [
         {
           "id": "ph",
@@ -168,8 +167,8 @@
     {
       "id": "techos",
       "title": "Techos",
-      "map": "maps/mall/techos.svg",
-      "minimap": "maps/mall/planta-baja.jpg",
+      "map": "maps/mall/techos.jpg",
+      
       "locations": [
         {
           "id": "techos",
@@ -186,7 +185,7 @@
       "id": "longitudinal",
       "title": "Corte Longitudinal",
       "map": "maps/mall/longitudinal.jpg",
-      "minimap": "maps/mall/planta-baja.jpg",
+      
       "locations": [
         {
           "id": "longitudinal",
@@ -203,7 +202,7 @@
       "id": "transversal",
       "title": "Corte Transversal",
       "map": "maps/mall/transversal.jpg",
-      "minimap": "maps/mall/planta-baja.jpg",
+      
       "locations": [
         {
           "id": "transversal",
