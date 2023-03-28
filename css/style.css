@@ -83,7 +83,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.75em;
-    color: #777;
+    color: #082B26;
     overflow-x: hidden !important;
     background: #fff;
 }
@@ -93,7 +93,7 @@ p {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.75em;
-    color: #777;
+    color: #082B26;
     margin-bottom: 20px;
 }
 
@@ -176,7 +176,7 @@ textarea {
     font-family: 'Niramit', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    color: #777;
+    color: #082B26;
     background-image: none;
     border-bottom: 1px solid #f4f4f4;
     border-color: ease-in-out .15s, box-shadow ease-in-out .15s;
@@ -250,29 +250,29 @@ input[type="submit"] {
 
 .alert-success {
     background: transparent;
-    color: #777;
+    color: #082B26;
     border: 1px solid #b19777;
     border-radius: 0px;
 }
 
 /* Placeholder */
 ::-webkit-input-placeholder {
-    color: #777;
+    color: #082B26;
     font-size: 15px;
     font-weight: 400;
 }
 
 :-moz-placeholder {
-    color: #777;
+    color: #082B26;
 }
 
 ::-moz-placeholder {
-    color: #777;
+    color: #082B26;
     opacity: 1;
 }
 
 :-ms-input-placeholder {
-    color: #777;
+    color: #082B26;
 }
 
 
@@ -287,7 +287,7 @@ blockquote {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.75em;
-    color: #777;
+    color: #082B26;
 }
 
 blockquote p {
@@ -309,7 +309,7 @@ blockquote:before {
     font-size: 110px;
     opacity: 0.07;
     line-height: 1;
-    color: #272727;
+    color: #082B26;
 }
 
 blockquote p {
@@ -455,17 +455,17 @@ blockquote cite:before {
 
 /* ======= Selection style ======= */
 ::-webkit-selection {
-    color: #777;
+    color: #082B26;
     background: rgba(0, 0, 0, 0.1);
 }
 
 ::-moz-selection {
-    color: #777;
+    color: #082B26;
     background: rgba(0, 0, 0, 0.1);
 }
 
 ::selection {
-    color: #777;
+    color: #082B26;
     background: rgba(0, 0, 0, 0.1);
 }
 
@@ -512,7 +512,7 @@ blockquote cite:before {
     font-size: 40px;
     font-family: "Reforma1969";
     font-weight: 400;
-    color: #272727;
+    color: #082B26;
     text-transform: uppercase;
     position: relative;
     letter-spacing: 10px;
@@ -557,7 +557,7 @@ blockquote cite:before {
 .navbar .navbar-nav .nav-link {
     font-family: "Reforma1969";
     font-size: 13px;
-    font-weight: 200;
+    font-weight: 600;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -567,7 +567,7 @@ blockquote cite:before {
 }
 
 .navbar .navbar-nav .nav-link.nav-color {
-    color: #272727;
+    color: #082B26;
 }
 
 .navbar .navbar-nav .nav-link:hover {
@@ -600,7 +600,7 @@ blockquote cite:before {
 }
 
 .nav-scroll .navbar-nav .nav-link {
-    color: #272727;
+    color: #082B26;
 }
 
 .nav-scroll .navbar-nav .active {
@@ -609,7 +609,7 @@ blockquote cite:before {
 
 .nav-scroll .navbar-nav .logo {
     padding: 15px 0;
-    color: #777;
+    color: #082B26;
 }
 
 .nav-scroll .logo {
@@ -673,7 +673,7 @@ blockquote cite:before {
 }
 
 .logo-wrapper .logo h2 a i {
-    color: #777;
+    color: #082B26;
     font-size: 20px;
     vertical-align: super;
 }
@@ -682,7 +682,7 @@ blockquote cite:before {
     display: block;
     font-family: "Reforma1969";
     font-size: 12px;
-    color: #777;
+    color: #082B26;
     font-weight: 400;
     letter-spacing: 4px;
     display: block;
@@ -759,7 +759,7 @@ blockquote cite:before {
     font-family: 'Niramit', sans-serif;
     font-size: 15px;
     font-weight: 300;
-    color: #272727;
+    color: #082B26;
     position: relative;
     -webkit-transition: all .4s;
     transition: all .4s;
@@ -794,7 +794,7 @@ blockquote cite:before {
 .dropdown-menu .dropdown-item em,
 .sub-menu .dropdown-item em {
     font-size: 8px;
-    background-color: #272727;
+    background-color: #082B26;
     padding: 2px 4px;
     color: #fff;
     border-radius: 2px;
@@ -952,7 +952,7 @@ blockquote cite:before {
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    background: #272727;
+    background: #082B26;
     position: absolute;
     top: 10px;
     right: 0;
@@ -1175,7 +1175,7 @@ blockquote cite:before {
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 0;
-    color: #777;
+    color: #082B26;
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
 }
@@ -1213,7 +1213,7 @@ blockquote cite:before {
 
     .banner-header p {
         font-size: 20px;
-        color: #777;
+        color: #082B26;
     }
 }
 
@@ -1383,7 +1383,7 @@ blockquote cite:before {
 .about .about-img .img img {
     position: relative;
     z-index: 2;
-    background: #272727;
+    background: #082B26;
 }
 
 .about-img-2 {
@@ -1397,7 +1397,7 @@ blockquote cite:before {
     right: 45px;
     z-index: 3;
     padding: 20px 15px;
-    color: #272727;
+    color: #082B26;
     text-transform: uppercase;
     font-family: "Reforma1969";
     font-weight: 300;
@@ -1434,12 +1434,12 @@ blockquote cite:before {
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 3px;
-    color: #272727;
+    color: #082B26;
 }
 
 .team .info p {
     margin-bottom: 5px;
-    color: #777;
+    color: #082B26;
 }
 
 .team .info .social {
@@ -1460,19 +1460,19 @@ blockquote cite:before {
 }
 
 .team .info .social a:hover {
-    color: #272727;
+    color: #082B26;
 }
 
 
 /* ======= Team Details style ======= */
 .team-details {
-    color: #777;
+    color: #082B26;
 }
 
 .team-details h3 {
     font-size: 25px;
     margin-bottom: 0px;
-    color: #272727;
+    color: #082B26;
     letter-spacing: 3px;
     font-weight: 300;
     text-transform: uppercase;
@@ -1578,7 +1578,7 @@ blockquote cite:before {
     color: inherit;
     margin-right: 8px;
     border: 1px solid #d4d4d4;
-    color: #777;
+    color: #082B26;
     border-radius: 50%;
 }
 
@@ -1641,12 +1641,12 @@ blockquote cite:before {
     -webkit-flex-basis: 30%;
     -ms-flex-preferred-size: 30%;
     flex-basis: 30%;
-    color: #272727;
+    color: #082B26;
 }
 
 .position-title span {
     font-family: 'Niramit', sans-serif;
-    color: #777;
+    color: #082B26;
     display: block;
     text-transform: none;
     letter-spacing: 0px;
@@ -1660,12 +1660,12 @@ blockquote cite:before {
     -webkit-flex-basis: 40%;
     -ms-flex-preferred-size: 40%;
     flex-basis: 40%;
-    color: #272727;
+    color: #082B26;
 }
 
 .position-location span {
     font-family: 'Niramit', sans-serif;
-    color: #777;
+    color: #082B26;
     display: block;
     text-transform: none;
     letter-spacing: 0px;
@@ -1675,12 +1675,12 @@ blockquote cite:before {
     font-weight: 400;
     -webkit-transition: color .3s;
     transition: color .3s;
-    color: #777;
+    color: #082B26;
 }
 
 .position-time span {
     font-family: 'Niramit', sans-serif;
-    color: #272727;
+    color: #082B26;
     display: block;
     text-transform: none;
     letter-spacing: 0px;
@@ -1689,7 +1689,7 @@ blockquote cite:before {
 .position-icon {
     font-size: 16px;
     line-height: 1;
-    color: #272727;
+    color: #082B26;
 }
 
 .position-icon i {
@@ -1777,7 +1777,7 @@ blockquote cite:before {
     font-size: 16px;
     font-weight: 300;
     margin-bottom: 15px;
-    color: #272727;
+    color: #082B26;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
@@ -1851,14 +1851,14 @@ blockquote cite:before {
     opacity: 1;
     visibility: visible;
     margin-bottom: 0;
-    color: #777;
+    color: #082B26;
 }
 
 .services2 .title-box h3 {
     font-size: 16px;
     font-weight: 300;
     margin-bottom: 15px;
-    color: #272727;
+    color: #082B26;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
@@ -1989,7 +1989,7 @@ blockquote cite:before {
     transition: .25s;
     font-family: inherit !important;
     opacity: 0;
-    color: #777;
+    color: #082B26;
     margin-bottom: -35px
 }
 
@@ -2007,7 +2007,7 @@ blockquote cite:before {
 .services3-heading {
     font-family: "Reforma1969";
     font-size: 16px;
-    color: #272727;
+    color: #082B26;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 300;
@@ -2045,7 +2045,7 @@ blockquote cite:before {
 
 /* ======= Services 4 ======= */
 .services4 {
-    color: #777;
+    color: #082B26;
 }
 
 .services4 .square-flip {
@@ -2143,7 +2143,7 @@ blockquote cite:before {
 
 .services4 .square2 h4 {
     font-size: 20px;
-    color: #272727;
+    color: #082B26;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-weight: 300;
@@ -2151,23 +2151,23 @@ blockquote cite:before {
 
 .services4 .square2 p {
     font-size: 16px;
-    color: #777;
+    color: #082B26;
 }
 
 .services4 .square2 .icon img {
     width: 60px;
-    color: #777;
+    color: #082B26;
     margin-bottom: 20px;
 }
 
 .services4 .btn-line a {
     border-bottom: 1px solid #ccc;
-    color: #777;
+    color: #082B26;
 }
 
 .services4 .btn-line a:hover {
     border-bottom: 1px solid #b19777;
-    color: #777;
+    color: #082B26;
 }
 
 .services4 .square-flip .square2 {
@@ -2293,7 +2293,7 @@ blockquote cite:before {
     font-family: "Reforma1969";
     font-size: 20px;
     line-height: 1.1em;
-    color: #272727;
+    color: #082B26;
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -2308,7 +2308,7 @@ blockquote cite:before {
     position: relative;
     line-height: 48px;
     font-size: 16px;
-    color: #777;
+    color: #082B26;
     font-weight: 300;
     margin-bottom: 5px;
 }
@@ -2346,7 +2346,7 @@ blockquote cite:before {
     position: relative;
     display: block;
     font-size: 16px;
-    color: #777;
+    color: #082B26;
     font-weight: 400;
     transition: all 0.3s ease;
     z-index: 1;
@@ -2470,7 +2470,7 @@ blockquote cite:before {
 .projects .item .con .butn-light {
     margin-left: 0;
     border-radius: 30px;
-    border-color: #777;
+    border-color: #082B26;
     padding: 11px 30px;
 }
 
@@ -2517,7 +2517,7 @@ blockquote cite:before {
 .projects-prev-next a {
     display: inline-block;
     font-size: 16px;
-    color: #777;
+    color: #082B26;
     line-height: 1em;
 }
 
@@ -2621,7 +2621,7 @@ blockquote cite:before {
     margin-top: 0;
     margin-bottom: 5px;
     font-size: 20px;
-    color: #272727;
+    color: #082B26;
     font-weight: 300;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -2738,7 +2738,7 @@ blockquote cite:before {
     font-weight: 300;
     letter-spacing: 5px;
     text-transform: uppercase;
-    color: #272727;
+    color: #082B26;
     margin-bottom: 0px;
 }
 
@@ -2901,7 +2901,7 @@ blockquote cite:before {
 
 .projects4 .caption h4 {
     font-size: 30px;
-    color: #272727;
+    color: #082B26;
     letter-spacing: 5px;
     font-weight: 300;
     line-height: 1.25em;
@@ -3043,7 +3043,7 @@ blockquote cite:before {
     margin-top: 0;
     margin-bottom: 5px;
     font-size: 20px;
-    color: #272727;
+    color: #082B26;
     font-weight: 300;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -3109,7 +3109,7 @@ blockquote cite:before {
     position: relative;
     font-family: 'Niramit', sans-serif;
     font-size: 16px;
-    color: #777;
+    color: #082B26;
 }
 
 .project-bar {
@@ -3261,12 +3261,12 @@ blockquote cite:before {
 }
 
 .gallery-box .gallery-detail i {
-    color: #272727;
+    color: #082B26;
     padding: 8px;
 }
 
 .gallery-box .gallery-detail i:hover {
-    color: #272727;
+    color: #082B26;
 }
 
 .gallery-box:hover .gallery-detail {
@@ -3411,7 +3411,7 @@ button.mfp-arrow {
 
 .testimonials-box .head-box h6 {
     font-weight: 400;
-    color: #777;
+    color: #082B26;
     font-size: 17px;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -3421,7 +3421,7 @@ button.mfp-arrow {
 .testimonials-box .head-box h4 {
     font-size: 20px;
     font-weight: 300;
-    color: #272727;
+    color: #082B26;
     letter-spacing: 5px;
     border-bottom: 1px solid #f4f4f4;
     padding-bottom: 15px;
@@ -3429,7 +3429,7 @@ button.mfp-arrow {
 }
 
 .testimonials-box .head-box h4 span {
-    color: #272727;
+    color: #082B26;
 }
 
 @media screen and (max-width: 991px) {
@@ -3454,7 +3454,7 @@ button.mfp-arrow {
 }
 
 .testimonials .item p {
-    color: #777;
+    color: #082B26;
 }
 
 .testimonials .item .info {
@@ -3485,7 +3485,7 @@ button.mfp-arrow {
 
 .testimonials .item .info span {
     font-size: 16px;
-    color: #777;
+    color: #082B26;
     margin-right: 5px;
     line-height: 1.25em;
 }
@@ -3640,7 +3640,7 @@ button.mfp-arrow {
 }
 
 .bauen-blog2 .content .date h6 {
-    color: #777;
+    color: #082B26;
     letter-spacing: 2px;
     font-size: 10px;
     font-family: 'Niramit', sans-serif;
@@ -3691,7 +3691,7 @@ button.mfp-arrow {
 .bauen-blog2 .content .info h6 {
     font-size: 11px;
     letter-spacing: 2px;
-    color: #777;
+    color: #082B26;
     font-family: 'Niramit', sans-serif;
     text-transform: uppercase;
 }
@@ -3796,7 +3796,7 @@ button.mfp-arrow {
 }
 
 .bauen-blog3 .post-cont h5 a {
-    color: #272727;
+    color: #082B26;
 }
 
 .bauen-blog3 .post-cont h5 a:hover {
@@ -3837,13 +3837,13 @@ button.mfp-arrow {
 
 .blog-sidebar .widget ul li {
     margin-bottom: 15px;
-    color: #777;
+    color: #082B26;
     font-size: 16px;
     line-height: 1.5em;
 }
 
 .blog-sidebar .widget ul li a {
-    color: #777;
+    color: #082B26;
 }
 
 .blog-sidebar .widget ul li a.active {
@@ -3892,7 +3892,7 @@ button.mfp-arrow {
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #272727;
+    color: #082B26;
 }
 
 .blog-sidebar .search form {
@@ -3933,7 +3933,7 @@ button.mfp-arrow {
 
 .blog-sidebar ul.tags li:hover,
 .blog-sidebar ul.tags li a:hover {
-    background-color: #272727;
+    background-color: #082B26;
     color: #fff;
 }
 
@@ -3956,7 +3956,7 @@ button.mfp-arrow {
     height: 40px;
     line-height: 38px;
     text-align: center;
-    color: #777;
+    color: #082B26;
     font-weight: 300;
     border: 1px solid #efefef;
     font-family: "Reforma1969";
@@ -4039,7 +4039,7 @@ button.mfp-arrow {
 .bauen-blog4 .caption h4,
 .bauen-blog4 .caption h4 a {
     font-size: 27px;
-    color: #272727;
+    color: #082B26;
     letter-spacing: 5px;
     font-weight: 300;
     text-transform: uppercase;
@@ -4078,18 +4078,18 @@ button.mfp-arrow {
 }
 
 .bauen-blog4 .caption .info-wrapper .more {
-    color: #777;
+    color: #082B26;
     text-decoration: none;
     font-size: 14px;
 }
 
 .bauen-blog4 .caption .info-wrapper .more i {
-    color: #777;
+    color: #082B26;
     font-size: 10px;
 }
 
 .bauen-blog4 .caption .info-wrapper .date {
-    color: #777;
+    color: #082B26;
     font-size: 14px;
 }
 
@@ -4181,7 +4181,7 @@ hr.border-2 {
 
 .bauen-comment-section h3 span {
     font-size: 12px;
-    color: #777;
+    color: #082B26;
     font-weight: 400;
     margin-left: 15px;
 }
@@ -4322,7 +4322,7 @@ hr.border-2 {
 }
 
 .butn-light a:hover span {
-    color: #272727;
+    color: #082B26;
 }
 
 
@@ -4334,11 +4334,11 @@ hr.border-2 {
 
 .main-footer.dark {
     background: #fff;
-    color: #777;
+    color: #082B26;
 }
 
 .main-footer .abot p {
-    color: #777;
+    color: #082B26;
 }
 
 .main-footer .abot .social-icon {
@@ -4353,7 +4353,7 @@ hr.border-2 {
     text-align: center;
     font-size: 12px;
     border: 1px solid #efefef;
-    color: #777;
+    color: #082B26;
     border-radius: 100%;
     margin-right: 3px;
     -webkit-transition: all .4s;
@@ -4404,7 +4404,7 @@ hr.border-2 {
 
 .main-footer .sub-footer p {
     font-size: 14px;
-    color: #777;
+    color: #082B26;
     margin-top: 7px;
 }
 
@@ -4691,7 +4691,7 @@ hr.border-2 {
     cursor: pointer;
     padding: 20px 40px;
     padding-right: 60px;
-    color: #777;
+    color: #082B26;
     transition: all 500ms ease;
     font-family: "Reforma1969";
 }
@@ -4734,7 +4734,7 @@ hr.border-2 {
     position: relative;
     padding: 0px 40px 30px;
     background-color: #f4f4f4;
-    color: #777;
+    color: #082B26;
 }
 
 .accordion-box .block .acc-content.current {
@@ -4789,7 +4789,7 @@ hr.border-2 {
 }
 
 .pricing-card-list li i.unavailable {
-    color: #777;
+    color: #082B26;
 }
 
 .pricing-card:hover {
@@ -4817,7 +4817,7 @@ hr.border-2 {
     line-height: 1;
     font-size: 40px;
     margin-bottom: 20px;
-    color: #272727;
+    color: #082B26;
 }
 
 /* butn */
@@ -4847,7 +4847,7 @@ hr.border-2 {
     bottom: 0;
     left: 100%;
     z-index: 1;
-    background: #272727;
+    background: #082B26;
     color: #fff;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
@@ -4898,7 +4898,7 @@ hr.border-2 {
     font-family: 'Niramit', sans-serif;
     font-size: 16px;
     background: #f4f4f4;
-    color: #777;
+    color: #082B26;
     border-radius: 7px;
     border: 1px solid #f4f4f4;
     transition: all 300ms ease;
@@ -4911,7 +4911,7 @@ hr.border-2 {
 }
 
 .error-form .form-group input::-webkit-input-placeholder {
-    color: #777;
+    color: #082B26;
 }
 
 .error-form .form-group .theme-btn {
@@ -4923,7 +4923,7 @@ hr.border-2 {
     line-height: 40px;
     font-size: 20px;
     background: none;
-    color: #777;
+    color: #082B26;
 }
 
 .error-form .form-group .theme-btn span {
@@ -5009,7 +5009,7 @@ hr.border-2 {
 
 .process .item h6 {
     font-family: "Reforma1969";
-    color: #272727;
+    color: #082B26;
     font-size: 16px;
     margin-bottom: 5px;
     text-transform: uppercase;
@@ -5087,7 +5087,7 @@ hr.border-2 {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 1px;
-    color: #777;
+    color: #082B26;
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -5097,7 +5097,7 @@ hr.border-2 {
     font-family: "Reforma1969";
     font-size: 16px;
     font-weight: 300;
-    color: #272727;
+    color: #082B26;
     text-transform: uppercase;
     margin-bottom: 5px;
     letter-spacing: 5px;
@@ -5348,7 +5348,7 @@ hr.border-2 {
 }
 
 [data-overlay-darkgray]:before {
-    background: #272727;
+    background: #082B26;
 }
 
 [data-overlay-light]:before {
@@ -5510,15 +5510,15 @@ hr.border-2 {
     }
 
     .navbar .navbar-nav .nav-link {
-        color: #272727;
+        color: #082B26;
     }
 
     .nav-scroll .navbar-collapse .nav-link {
-        color: #272727 !important;
+        color: #082B26 !important;
     }
 
     .nav-scroll .navbar-collapse .active {
-        color: #272727 !important;
+        color: #082B26 !important;
     }
 
     .dropdown-menu {
@@ -5572,7 +5572,7 @@ hr.border-2 {
 
     .dropdown-menu .dropdown-item,
     .sub-menu .dropdown-item {
-        color: #272727;
+        color: #082B26;
         border-bottom: 1px solid #f4f4f4;
     }
 

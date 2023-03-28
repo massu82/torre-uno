@@ -15,7 +15,7 @@
                 <li class="nav-item"><a class="nav-link" href="#productos" data-scroll-nav="3">Productos</a></li>
                 <li class="nav-item"><a class="nav-link" href="#galeria" data-scroll-nav="4">Galería</a></li>
                 <li class="nav-item"><a class="nav-link" href="#vistas" data-scroll-nav="5">Vistas</a></li>
-                <li class="nav-item"><a class="nav-link" href="#avance" data-scroll-nav="6">Avance</a></li>
+                <li class="nav-item"><a class="nav-link" href="#avance" data-scroll-nav="6">Avance de obra</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contacto" data-scroll-nav="0">Contacto</a></li>
 
             </ul>

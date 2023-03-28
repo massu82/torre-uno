@@ -339,6 +339,11 @@ $plantas = [
 ];
 $clientes = [
     [
+        'logo' => '7.png',
+        'link' => 'https://www.banyantree.com/es/mexico/cabo-marques',
+        'nombre' => 'Banyan Tree Cabo Marques'
+    ],
+    [
         'logo' => '1.png',
         'link' => 'https://banyantree.gmd.mx/',
         'nombre' => 'Banyan Tree Residences'
@@ -353,7 +358,8 @@ $clientes = [
         'logo' => '6.png',
         'link' => 'https://www.gmd.mx/gmd-resorts.html',
         'nombre' => 'Gropo Mexicano de Desarrollo Resorts'
-    ],
+    ]
+
 ];
 $avances = [
     [
@@ -386,13 +392,6 @@ $avances = [
     ],
     [
         'foto' => '05',
-        'nivel' => '',
-        'clave' => 'pb',
-        'nombre' => 'Avance',
-        'col' => '4'
-    ],
-    [
-        'foto' => '06',
         'nivel' => '',
         'clave' => 'pb',
         'nombre' => 'Avance',
