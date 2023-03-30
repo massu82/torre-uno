@@ -1,5 +1,5 @@
 <?php
-define('SITIO', 'Luxury Apartments');
+define('SITIO', 'Banyan Tree Luxury Apartments');
 define('VIDEO_HOME', 'https://vimeo.com/761561021/d6f5b43863');
 define('CTA', '#contacto');
 define('WHATS', '');

@@ -1,11 +1,14 @@
 <?php include('config.php'); ?>
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="es">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <title><?= SITIO ?></title>
+    <meta name="description"
+          content="<?= SITIO ?> Cabo Marqués es un desarrollo residencial de lujo con la experiencia y marca Banyan Tree. Oportunidad de inversión inmobiliaria en el exclusivo Resort de Acapulco Diamante.">
+    <meta name="author" content="Massuttier">
     <?php include('include/header.php'); ?>
 
 </head>
