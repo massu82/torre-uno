@@ -8,7 +8,7 @@ define('WHATS', '');
 $slider = [
     [
         'foto' => '3.jpg',
-        'texto' => 'Alberca y terraza privada',
+        'texto' => 'Piscina y terraza privada',
         'cta' => '#contacto'
     ],
     [
@@ -134,9 +134,21 @@ $galeria = [
         'col' => '6'
     ],
     [
+        'foto' => 'pad-thai',
+        'cat' => 'amenidades',
+        'des' => 'Magníficas experiencias gastronómicas',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'acantilado',
+        'cat' => 'amenidades',
+        'des' => 'Situado sobre un acantilado',
+        'col' => '6'
+    ],
+    [
         'foto' => 'front',
         'cat' => 'amenidades',
-        'des' => 'Front',
+        'des' => 'Lobby',
         'col' => '6'
     ],
     [
@@ -184,7 +196,7 @@ $galeria = [
     [
         'foto' => '07',
         'cat' => 'amenidades',
-        'des' => 'Alberca exterior',
+        'des' => 'Piscina exterior',
         'col' => '6'
     ],
     [

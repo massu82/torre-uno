@@ -12,7 +12,7 @@
                     <div class="col-md-6 offset-md-6 text-right">
                         <div class="video-fullscreen-inner">
                             <h1>Luxury Apartments</h1>
-                            <h4 class="text-white">Departamentos con alberca privada y vistas al oceáno pacífico.
+                            <h4 class="text-white">Departamentos con Piscina privada y vistas al oceáno pacífico.
                             </h4>
                             <div class="butn-light mt-30 mb-30"><a href="<?= CTA ?>"
                                                                    target="_self"><span>Contacto</span></a>

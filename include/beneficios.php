@@ -27,7 +27,7 @@
                 <div class="col-md-6 animate-box" data-animate-effect="fadeInUp">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">Proyecto vanguardista</li>
-                        <li class="list-group-item">Alberca y terraza privada</li>
+                        <li class="list-group-item">Piscina y terraza privada</li>
                         <li class="list-group-item">Mejor privacidad, exclusividad y seguridad de la región</li>
                         <li class="list-group-item">Ingresos mediante el programa de rentas</li>
                         <li class="list-group-item">Programa de intercambio internacional con Banyan Tree</li>

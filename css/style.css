@@ -1,5 +1,4 @@
 /* -----------------------------------------------------------------------------------
-
  01. Google fonts
  02. Basics style
  03. Helper style - [NEW] 
@@ -85,7 +84,8 @@ body {
     line-height: 1.75em;
     color: #082B26;
     overflow-x: hidden !important;
-    background: #fff;
+    background: #ffffff;
+    /*background: #E7E6E2;*/
 }
 
 p {
@@ -110,7 +110,7 @@ h6 {
 }
 
 .owl-item h2 {
-    background-color: rgba(8,43,38,0.3);
+    text-shadow: #0b0b0b 2px 2px 2px;
     padding: 10px 5px;
     font-weight: 600;
     letter-spacing: 3;
@@ -404,8 +404,6 @@ blockquote cite:before {
 .js .animate-box {
     opacity: 0;
 }
-
-
 /* ======= Helper style ======= */
 .mt-0 {
     margin-top: 0 !important;
@@ -454,8 +452,6 @@ blockquote cite:before {
 .no-padding {
     padding: 0 !important;
 }
-
-
 /* ======= Selection style ======= */
 ::-webkit-selection {
     color: #082B26;
@@ -471,15 +467,12 @@ blockquote cite:before {
     color: #082B26;
     background: rgba(0, 0, 0, 0.1);
 }
-
-
 /* ======= Owl-Theme custom style ======= */
 .owl-theme .owl-nav.disabled + .owl-dots {
     margin-top: 0px;
     line-height: .7;
     display: block;
 }
-
 .owl-theme .owl-dots .owl-dot span {
     width: 8px;
     height: 8px;
@@ -494,7 +487,6 @@ blockquote cite:before {
     background: transparent;
     border: 1px solid #b19777;
 }
-
 
 /* ======= Section style ======= */
 .section-padding {
@@ -518,7 +510,7 @@ blockquote cite:before {
     color: #082B26;
     text-transform: uppercase;
     position: relative;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     word-spacing: 5px;
     margin-bottom: 30px;
 }
@@ -3048,7 +3040,7 @@ blockquote cite:before {
     font-size: 20px;
     color: #082B26;
     font-weight: 300;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     text-transform: uppercase;
 }
 
