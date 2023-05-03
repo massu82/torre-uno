@@ -32,7 +32,7 @@
                         <div class="head-box">
                             <h4>Escríbenos</h4>
                         </div>
-                        <form method="post" class="contact__form" action="mail.php">
+                        <form method="post" class="contact__form" action="php/enviar.php">
                             <!-- Form message -->
                             <div class="row">
                                 <div class="col-12">
@@ -51,10 +51,10 @@
                                     <input name="email" type="email" placeholder="Correo *" required>
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <input name="phone" type="text" placeholder="Teléfono *" required>
+                                    <input name="phone" type="text" placeholder="Teléfono">
                                 </div>
                                 <div class="col-md-12 form-group">
-                                        <textarea name="message" id="message" cols="30" rows="4" placeholder="Mensaje *"
+                                        <textarea name="comment" id="message" cols="30" rows="4" placeholder="Mensaje *"
                                                   required></textarea>
                                 </div>
                                 <div class="col-md-12">

@@ -12,7 +12,6 @@
     <?php include('include/header.php'); ?>
 
 </head>
-
 <?php include('include/navbar.php'); ?>
 <?php //include('include/header-video.php'); ?>
 <?php include('include/slider.php'); ?>
@@ -22,12 +21,10 @@
 <?php //include('include/vistas.php'); ?>
 <?php include('include/galeria.php'); ?>
 <?php include('include/vistas.php'); ?>
-<?php include('include/avance.php'); ?>
+<?php include('include/avance-video.php'); ?>
 <?php //include('include/servicios.php'); ?>
 <?php include('include/contacto.php'); ?>
 <?php include('include/clientes.php'); ?>
 <?php //include ('include/map.php'); ?>
 <?php include('include/footer.php'); ?>
-
 </html>
-
