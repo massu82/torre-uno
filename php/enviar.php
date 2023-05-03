@@ -4,7 +4,7 @@ require("class.phpmailer.php");
 require("class.smtp.php");
 
 // Valores enviados desde el formulario
-if ( !isset($_POST["name"]) || !isset($_POST["email"]) || !isset($_POST["comment"]) ) {
+if (!isset($_POST["name"]) || !isset($_POST["email"]) || !isset($_POST["comment"])) {
     die ("Es necesario completar todos los datos del formulario");
 }
 
@@ -23,13 +23,13 @@ $smtpClave = "V3ntasR3sorT2";  // Mi contrase�a
 $mail = new PHPMailer();
 $mail->IsSMTP(true);
 $mail->SMTPAuth = true;
-$mail->Port =587;
-$mail->IsHTML(); 
+$mail->Port = 587;
+$mail->IsHTML();
 $mail->CharSet = "utf-8";
 
 // VALORES A MODIFICAR //
-$mail->Host = $smtpHost; 
-$mail->Username = $smtpUsuario; 
+$mail->Host = $smtpHost;
+$mail->Username = $smtpUsuario;
 $mail->Password = $smtpClave;
 
 
@@ -74,7 +74,7 @@ $mail->SMTPOptions = array(
 );
 
 $estadoEnvio = $mail->Send();
-if($estadoEnvio){
+if ($estadoEnvio) {
     echo '<script type="text/javascript">alert("Tu mensaje fué enviado de forma correcta");window.location.href = "https://banyantree.gmd.mx";</script>';
 
 } else {

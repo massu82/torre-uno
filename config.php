@@ -313,7 +313,7 @@ $planos = [
         'foto' => 'ph',
         'nivel' => 'Tercer Nivel',
         'clave' => 'ph',
-        'nombre' => 'Pent House',
+        'nombre' => 'Penthouse',
         'col' => '12'
     ],
 ];
@@ -345,7 +345,7 @@ $plantas = [
     [
         'foto' => 'Planta-PH',
         'cat' => 'ph',
-        'des' => 'Pent House',
+        'des' => 'Penthouse',
         'col' => '12'
     ],
 ];

@@ -30,7 +30,7 @@
                 <div class="col-md-5 offset-md-1">
                     <div class="testimonials-box animate-box" data-animate-effect="fadeInUp">
                         <div class="head-box">
-                            <h4>Escríbenos</h4>
+                            <h4>Escr&iacute;benos</h4>
                         </div>
                         <form method="post" class="contact__form" action="php/enviar.php">
                             <!-- Form message -->
@@ -38,7 +38,7 @@
                                 <div class="col-12">
                                     <div class="alert alert-success contact__msg" style="display: none"
                                          role="alert">
-                                        Tu mensaje ha sido enviado con exito
+                                        Tu mensaje ha sido enviado con &eacute;xito
                                     </div>
                                 </div>
                             </div>
@@ -51,7 +51,7 @@
                                     <input name="email" type="email" placeholder="Correo *" required>
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <input name="phone" type="text" placeholder="Teléfono">
+                                    <input name="phone" type="text" placeholder="Tel&eacute;fono">
                                 </div>
                                 <div class="col-md-12 form-group">
                                         <textarea name="comment" id="message" cols="30" rows="4" placeholder="Mensaje *"

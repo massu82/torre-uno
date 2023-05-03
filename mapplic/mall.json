@@ -149,14 +149,14 @@
     },
     {
       "id": "penthouse",
-      "title": "Pent House",
+      "title": "Penthouse",
       "map": "maps/mall/ph.jpg",
       
       "locations": [
         {
           "id": "ph",
           "title": "PH",
-          "about": "Pent House",
+          "about": "Penthouse",
           "description": "<table><tbody><tr><td>M2 de construcción</td><th>433.63</th></tr><tr><td>Recámaras</td><th>4</th></tr><tr><td>Baños</td><th>4</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
           "x": "0.5697",
           "y": "1.1",

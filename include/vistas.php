@@ -45,7 +45,7 @@
                     <div class="services3-img-area"><img src="img/icons/drone.png" alt="Vimeo"></div>
                     <a class="vid" href="https://vimeo.com/792434872">
                         <div class="services3-text-area">
-                            <h4 class="services3-heading">Pent House</h4>
+                            <h4 class="services3-heading">Penthouse</h4>
                             <p><i class="ti-control-play"></i></p>
                         </div>
                     </a>
@@ -134,7 +134,7 @@
                 <div class="item">
                     <div class="position-re o-hidden"><img src="img/thumbs/2n.jpg" alt="Vimeo"></div>
                     <div class="con">
-                        <h5>Pent House</h5>
+                        <h5>Penthouse</h5>
                         <a class="vid" href="https://vimeo.com/812615580">
                             <div class="services3-text-area">
                                 <h4 class="services3-heading">Ver video <span><i

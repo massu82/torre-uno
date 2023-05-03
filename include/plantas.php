@@ -14,7 +14,7 @@
                     <li data-filter=".pb" >Planta Baja</li>
                     <li data-filter=".1n">Primer Nivel</li>
                     <li data-filter=".2n">Segundo Nivel</li>
-                    <li data-filter=".ph">Pent House</li>
+                    <li data-filter=".ph">Penthouse</li>
 
                 </ul>
             </div>
