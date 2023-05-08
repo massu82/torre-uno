@@ -10,7 +10,6 @@
           content="<?= SITIO ?> Cabo Marqués es un desarrollo residencial de lujo con la experiencia y marca Banyan Tree. Oportunidad de inversión inmobiliaria en el exclusivo Resort de Acapulco Diamante.">
     <meta name="author" content="Massuttier">
     <?php include('include/header.php'); ?>
-
 </head>
 <?php include('include/navbar.php'); ?>
 <?php //include('include/header-video.php'); ?>

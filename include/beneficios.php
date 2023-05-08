@@ -47,9 +47,9 @@
 
                         <li class="list-group-item">Club de playa privada y Marina</li>
                     </ul>
+                    <span class="info" style="font-size: 11px; line-height: 12px">*Toda la información contenida en este documento es de carácter informativo por lo que puede variar sin previo aviso al receptor de este documento y no son vinculatorios para la empresa promotora ni se deberá considerar como una oferta. La divulgación, copia o distribución de la información  contenida en ese documento y sus anexos está prohibida</span>
                 </div>
             </div>
-
 
         </div>
     </section>

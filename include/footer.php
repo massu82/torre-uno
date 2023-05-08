@@ -15,7 +15,7 @@
                     <div class="fothead">
                         <h6>Email</h6>
                     </div>
-                    <p><a href="mailto:ventas@gmdresorts.mx">ventas@gmdresorts.mx</a></p>
+                    <p><a href="mailto:ventas@gmd.com.mx">ventas@gmd.com.mx</a></p>
                 </div>
             </div>
             <div class="col-md-4 mb-30">
@@ -36,6 +36,7 @@
 
     <div class="sub-footer">
         <div class="container">
+
             <div class="row">
                 <div class="col-md-4">
                     <div class="text-left">
@@ -44,12 +45,12 @@
                 </div>
                 <div class="col-md-4 abot">
                     <div class="social-icon"><a href="https://www.facebook.com/BanyanTreeCM.Residences" target="_blank"><i
-                                    class="ti-facebook"></i></a> <a
-                                href="https://www.instagram.com/banyantreecm.residences/"><i
-                                    class="ti-instagram"></i></a> <a
-                                href="https://api.whatsapp.com/send/?phone=5215521283106&text=Me+gustar%C3%ADa+obtener+m%C3%A1s+Info&type=phone_number&app_absent=0"
-                                target="_blank"><i
-                                    class="ti-whatsapp"></i></a>
+                                class="ti-facebook"></i></a> <a
+                            href="https://www.instagram.com/banyantreecm.residences/"><i
+                                class="ti-instagram"></i></a> <a
+                            href="https://api.whatsapp.com/send/?phone=5215521283106&text=Me+gustar%C3%ADa+obtener+m%C3%A1s+Info&type=phone_number&app_absent=0"
+                            target="_blank"><i
+                                class="ti-whatsapp"></i></a>
                     </div>
                 </div>
                 <div class="col-md-4">

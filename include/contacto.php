@@ -1,7 +1,7 @@
 
 <!-- Promo video - Testiominals -->
 <section class="testimonials" id="contacto" data-scroll-index="0">
-    <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/galeria/bg/001.jpg"
+    <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/galeria/bg/bg-2.jpg"
          data-overlay-dark="3">
         <div class="container">
             <div class="row">

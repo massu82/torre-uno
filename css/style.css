@@ -5658,3 +5658,10 @@ hr.border-2 {
 div.pb {
     background-image: url("../img/thumbs/pb.jpg");
 }
+div.aviso{
+    display: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
