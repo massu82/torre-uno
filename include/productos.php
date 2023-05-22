@@ -12,7 +12,7 @@
                     intercambio internacional, servicio hotelero y bajos costos de mantenimiento
                 </p>
                 <div class="butn-dark mt-30 mb-30 mr-15"><a
-                            href="https://banyantree.gmd.mx/fraccional-departamentos.php" target="_blank"><span>Mas información</span></a>
+                            href="#contacto" data-scroll-nav="0"><span>Mas información</span></a>
                 </div>
             </div>
             <div class="col-md-6 animate-box" data-animate-effect="fadeInUp">
@@ -31,7 +31,8 @@
                     vistas al océano pacífico, programa de renta, intercambio internacional con Banyan Tree, servicio
                     hotelero y bajos costos de mantenimiento.
                 </p>
-                <div class="butn-dark mt-30 mb-30 mr-15"><a href="https://banyantree.gmd.mx/apartment-luxury.php"><span>Más información</span></a>
+                <div class="butn-dark mt-30 mb-30 mr-15"><a href="#contacto"
+                                                            data-scroll-nav="0"><span>Más información</span></a>
                 </div>
             </div>
             <div class="col-md-6 animate-box" data-animate-effect="fadeInUp">

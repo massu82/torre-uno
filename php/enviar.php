@@ -13,6 +13,7 @@ $email = $_POST["email"];
 $phone = $_POST["phone"];
 $comment = $_POST["comment"];
 $destinatario = "ventas@gmd.com.mx";
+$redireccion = "https://banyantree.gmd.mx/apartment-luxury.php";
 
 // Datos de la cuenta de correo utilizada para enviar v�a SMTP
 $smtpHost = "exs.gmd.com.mx";  // Dominio alternativo brindado en el email de alta
@@ -75,13 +76,13 @@ $mail->SMTPOptions = array(
 
 $estadoEnvio = $mail->Send();
 if ($estadoEnvio) {
-    echo '<script type="text/javascript">alert("Tu mensaje fué enviado de forma correcta");window.location.href = "https://banyantree.gmd.mx";</script>';
+    //echo '<script type="text/javascript">alert("Tu mensaje fué enviado de forma correcta");window.location.href = "'. $redireccion .'";</script>';
+    echo "Su mensaje fué enviado con éxito";
+    header('Location: https://banyantree.gmd.mx/fraccional-departamentos.php');
 
 } else {
     echo "Ocurrio un error inesperado.";
-
 }
-
 
 ?>
 
