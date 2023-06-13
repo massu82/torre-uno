@@ -11,15 +11,19 @@ if (!isset($_POST["name"]) || !isset($_POST["email"]) || !isset($_POST["comment"
 $name = $_POST["name"];
 $email = $_POST["email"];
 $phone = $_POST["phone"];
-$comment = $_POST["comment"];
-$destinatario = "ventas@gmd.com.mx";
+$message = $_POST["comment"];
+$destinatario = "aamassuttier@gmail.com";
 $redireccion = "https://banyantree.gmd.mx/apartment-luxury.php";
 
-// Datos de la cuenta de correo utilizada para enviar v�a SMTP
-$smtpHost = "exs.gmd.com.mx";  // Dominio alternativo brindado en el email de alta
-$smtpUsuario = "ventas@gmd.com.mx";  // Mi cuenta de correo
-$smtpClave = "V3ntasR3sorT2";  // Mi contrase�a
+// CREDENCIALES SMTP
+//$smtpHost = "exs.gmd.com.mx";
+//$smtpUsuario = "ventas@gmd.com.mx";
+//$smtpClave = "V3ntasR3sorT2";
 
+// CREDENCIALES SMTP
+$smtpHost = "smtp.zeptomail.com";
+$smtpUsuario = "emailapikey";
+$smtpClave = "wSsVR61+/UL4Cql7nWWkI+xsyF8GD132HBx/3gH3unP0F/iQ98c/xhaaDQ+gT/ccRG5sEDpBoO97yh9T1DQL2dwuyAoIDiiF9mqRe1U4J3x17qnvhDzJX2hUkxWJJIwKxg5qk2NoF8gk+g==";
 
 $mail = new PHPMailer();
 $mail->IsSMTP(true);
@@ -33,37 +37,29 @@ $mail->Host = $smtpHost;
 $mail->Username = $smtpUsuario;
 $mail->Password = $smtpClave;
 
-
-$mail->From = "ventas@gmd.com.mx"; // Email desde donde env�o el correo.
+$mail->From = "andres@massuttier.com.mx"; // Email desde donde env�o el correo.
 $mail->FromName = $name;
 $mail->addReplyTo($email);
 $mail->AddAddress($destinatario); // Esta es la direcci�n a donde enviamos los datos del formulario
 
 $mail->Subject = "Banyan Tree Lead"; // Este es el titulo del email.
-$commentHtml = nl2br($comment);
+$messageHtml = nl2br($message);
 $mail->Body = "
 <html> 
 
 <body> 
 
 <h3>Recibiste un nuevo comentario desde el formulario de contacto Luxury Apartments</h3>
-
 <p>Informacion enviada por el usuario de la web:</p>
-
 <p>name: <b>{$name}</b></p>
-
 <p>email: <b>{$email}</b></p>
-
 <p>phone: <b>{$phone}</b></p>
-
-<p>comment: <b>{$comment}</b></p>
-
+<p>comment: <b>{$message}</b></p>
 </body> 
-
 </html>
 
 <br />"; // Texto del email en formato HTML
-$mail->AltBody = "{$comment} \n\n "; // Texto sin formato HTML
+$mail->AltBody = "{$message} \n\n "; // Texto sin formato HTML
 // FIN - VALORES A MODIFICAR //
 
 $mail->SMTPOptions = array(
@@ -81,7 +77,10 @@ if ($estadoEnvio) {
     header('Location: https://banyantree.gmd.mx/fraccional-departamentos.php');
 
 } else {
-    echo "Ocurrio un error inesperado.";
+
+    //echo "Ocurrio un error inesperado.";
+    echo "<script>console.log('{$estadoEnvio}' );</script>";
+
 }
 
 ?>
