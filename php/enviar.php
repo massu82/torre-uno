@@ -78,8 +78,8 @@ if ($estadoEnvio) {
 
 } else {
 
-    //echo "Ocurrio un error inesperado.";
-    echo "<script>console.log('{$estadoEnvio}' );</script>";
+    echo "Ocurrio un error inesperado.";
+    //echo "<script>console.log('{$estadoEnvio}' );</script>";
 
 }
 
