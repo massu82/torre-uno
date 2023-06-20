@@ -1,4 +1,3 @@
-
 <!-- Promo video - Testiominals -->
 <section class="testimonials" id="contacto" data-scroll-index="0">
     <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/galeria/bg/bg-2.jpg"
@@ -32,8 +31,198 @@
                         <div class="head-box">
                             <h4>Escr&iacute;benos</h4>
                         </div>
-                        <form method="post" class="contact__form" action="php/mail.php">
-                            <!-- Form message -->
+                        <!-- Note :
+   - You can modify the font style and form style to suit your website.
+   - Code lines with comments Do not remove this code are required for the form to work properly, make sure that you do not remove these lines of code.
+   - The Mandatory check script can modified as to suit your business needs.
+   - It is important that you test the modified form before going live.-->
+                        <div id='crmWebToEntityForm' class='zcwf_lblRight crmWebToEntityForm'
+                             style='background-color: white; color: black; max-width: 100%;'>
+                            <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+                            <form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads4965551000028346001
+                                  method='POST'
+                                  onSubmit='javascript:document.charset="UTF-8"; return checkMandatory4965551000028346001()'
+                                  accept-charset='UTF-8'>
+                                <input type='text' style='display:none;' name='xnQsjsdp'
+                                       value='df857ec8b03655c57a1fc73b38644ca1a3d8a62ed8a59162e9ae73b351b3dd04'></input>
+                                <input type='hidden' name='zc_gad' id='zc_gad' value=''></input>
+                                <input type='text' style='display:none;' name='xmIwtLD'
+                                       value='561f2b1c5381826386cd740b205fdf74d5189fa5e5f7e52aac6e9a3fc81adb8d'></input>
+                                <input type='text' style='display:none;' name='actionType' value='TGVhZHM='></input>
+                                <input type='text' style='display:none;' name='returnURL'
+                                       value='https&#x3a;&#x2f;&#x2f;banyantree.gmd.mx&#x2f;fraccional-departamentos.php'> </input>
+                                <!-- Do not remove this code. -->
+                                <style>
+
+                                    .zcwf_lblRight .wfrm_fld_dpNn {
+                                        display: none;
+                                    }
+                                </style>
+                                <div class='zcwf_row'>
+                                    <div class='zcwf_col_lab' ><label
+                                                for='First_Name'>Nombre<span style='color:red;'>*</span></label></div>
+                                    <div class='zcwf_col_fld'><input type='text' id='First_Name' name='First Name'
+                                                                     maxlength='40'></input>
+                                        <div class='zcwf_col_help'></div>
+                                    </div>
+                                </div>
+                                <div class='zcwf_row'>
+                                    <div class='zcwf_col_lab' ><label
+                                                for='Last_Name'>Apellidos<span style='color:red;'>*</span></label></div>
+                                    <div class='zcwf_col_fld'><input type='text' id='Last_Name' name='Last Name'
+                                                                     maxlength='80'></input>
+                                        <div class='zcwf_col_help'></div>
+                                    </div>
+                                </div>
+                                <div class='zcwf_row'>
+                                    <div class='zcwf_col_lab' ><label
+                                                for='Email'>Correo electrónico<span style='color:red;'>*</span></label>
+                                    </div>
+                                    <div class='zcwf_col_fld'><input type='text' ftype='email' id='Email' name='Email'
+                                                                     maxlength='100'></input>
+                                        <div class='zcwf_col_help'></div>
+                                    </div>
+                                </div>
+                                <div class='zcwf_row'>
+                                    <div class='zcwf_col_lab' ><label
+                                                for='Phone'>Tel&eacute;fono</label></div>
+                                    <div class='zcwf_col_fld'><input type='text' id='Phone' name='Phone'
+                                                                     maxlength='30'></input>
+                                        <div class='zcwf_col_help'></div>
+                                    </div>
+                                </div>
+                                <div class='zcwf_row wfrm_fld_dpNn'>
+                                    <div class='zcwf_col_lab' ><label
+                                                for='Lead_Source'>Fuente de Posible cliente</label></div>
+                                    <div class='zcwf_col_fld'><select class='zcwf_col_fld_slt' id='Lead_Source'
+                                                                      name='Lead Source'>
+                                            <option value='-None-'>-None-</option>
+                                            <option value='Administradores'>Administradores</option>
+                                            <option value='Amigos&#x20;y&#x20;referidos'>Amigos y referidos</option>
+                                            <option value='Broker'>Broker</option>
+                                            <option value='Business&#x20;card&#x20;MCM'>Business card MCM</option>
+                                            <option value='Business&#x20;card&#x20;o&#x20;flyer&#x20;impreso'>Business
+                                                card o flyer impreso
+                                            </option>
+                                            <option value='Campa&ntilde;a&#x20;newsletter'>Campa&ntilde;a newsletter
+                                            </option>
+                                            <option value='Evento&#x20;IronMan&#x20;Acapulco'>Evento IronMan Acapulco
+                                            </option>
+                                            <option value='Facebook'>Facebook</option>
+                                            <option value='Flyer&#x20;Hotel'>Flyer Hotel</option>
+                                            <option value='Google'>Google</option>
+                                            <option value='Instragram'>Instragram</option>
+                                            <option value='Landing&#x20;page&#x20;MCM'>Landing page MCM</option>
+                                            <option value='Lonas'>Lonas</option>
+                                            <option value='Newsletter&#x20;Fraccional'>Newsletter Fraccional</option>
+                                            <option value='Newsletter&#x20;Residencias'>Newsletter Residencias</option>
+                                            <option value='Propietario'>Propietario</option>
+                                            <option selected value='P&aacute;gina&#x20;Web'>P&aacute;gina Web</option>
+                                            <option value='Sin&#x20;respuesta'>Sin respuesta</option>
+                                            <option value='Vi&#x20;el&#x20;producto'>Vi el producto</option>
+                                            <option value='Video&#x20;del&#x20;Hotel'>Video del Hotel</option>
+                                            <option value='Visita&#x20;al&#x20;Hotel'>Visita al Hotel</option>
+                                            <option value='yatching&#x20;pages'>yatching pages</option>
+                                        </select>
+                                        <div class='zcwf_col_help'></div>
+                                    </div>
+                                </div>
+                                <div class='zcwf_row'>
+                                    <div class='zcwf_col_lab' ><label
+                                                for='Description'>Descripci&oacute;n</label></div>
+                                    <div class='zcwf_col_fld'><textarea id='Description' name='Description'></textarea>
+                                        <div class='zcwf_col_help'></div>
+                                    </div>
+                                </div>
+                                <div class='zcwf_row'>
+                                    <div class='zcwf_col_lab'></div>
+                                    <div class='zcwf_col_fld'><input type='submit' id='formsubmit'
+                                                                     class='formsubmit zcwf_button' value='Enviar'
+                                                                     title='Enviar'>
+                                </div>
+                                <script>
+                                    function validateEmail4965551000028346001() {
+                                        var form = document.forms['WebToLeads4965551000028346001'];
+                                        var emailFld = form.querySelectorAll('[ftype=email]');
+                                        var i;
+                                        for (i = 0; i < emailFld.length; i++) {
+                                            var emailVal = emailFld[i].value;
+                                            if ((emailVal.replace(/^\s+|\s+$/g, '')).length != 0) {
+                                                var atpos = emailVal.indexOf('@');
+                                                var dotpos = emailVal.lastIndexOf('.');
+                                                if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= emailVal.length) {
+                                                    alert('Introduzca una dirección de correo electrónico válida. ');
+                                                    emailFld[i].focus();
+                                                    return false;
+                                                }
+                                            }
+                                        }
+                                        return true;
+                                    }
+
+                                    function checkMandatory4965551000028346001() {
+                                        var mndFileds = new Array('First Name', 'Last Name', 'Email');
+                                        var fldLangVal = new Array('Nombre', 'Apellidos', 'Correo\x20electr\xF3nico');
+                                        for (i = 0; i < mndFileds.length; i++) {
+                                            var fieldObj = document.forms['WebToLeads4965551000028346001'][mndFileds[i]];
+                                            if (fieldObj) {
+                                                if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
+                                                    if (fieldObj.type == 'file') {
+                                                        alert('Seleccione un archivo para cargar.');
+                                                        fieldObj.focus();
+                                                        return false;
+                                                    }
+                                                    alert(fldLangVal[i] + ' no puede estar vacío.');
+                                                    fieldObj.focus();
+                                                    return false;
+                                                } else if (fieldObj.nodeName == 'SELECT') {
+                                                    if (fieldObj.options[fieldObj.selectedIndex].value == '-None-') {
+                                                        alert(fldLangVal[i] + ' no puede ser nulo.');
+                                                        fieldObj.focus();
+                                                        return false;
+                                                    }
+                                                } else if (fieldObj.type == 'checkbox') {
+                                                    if (fieldObj.checked == false) {
+                                                        alert('Please accept  ' + fldLangVal[i]);
+                                                        fieldObj.focus();
+                                                        return false;
+                                                    }
+                                                }
+                                                try {
+                                                    if (fieldObj.name == 'Last Name') {
+                                                        name = fieldObj.value;
+                                                    }
+                                                } catch (e) {
+                                                }
+                                            }
+                                        }
+                                        if (!validateEmail4965551000028346001()) {
+                                            return false;
+                                        }
+                                        document.querySelector('.crmWebToEntityForm .formsubmit').setAttribute('disabled', true);
+                                    }
+
+                                    function tooltipShow4965551000028346001(el) {
+                                        var tooltip = el.nextElementSibling;
+                                        var tooltipDisplay = tooltip.style.display;
+                                        if (tooltipDisplay == 'none') {
+                                            var allTooltip = document.getElementsByClassName('zcwf_tooltip_over');
+                                            for (i = 0; i < allTooltip.length; i++) {
+                                                allTooltip[i].style.display = 'none';
+                                            }
+                                            tooltip.style.display = 'block';
+                                        } else {
+                                            tooltip.style.display = 'none';
+                                        }
+                                    }
+                                </script>
+                                <!-- Do not remove this --- Analytics Tracking code starts -->
+                                <script id='wf_anal'
+                                        src='https://crm.zohopublic.com/crm/WebFormAnalyticsServeServlet?rid=561f2b1c5381826386cd740b205fdf74d5189fa5e5f7e52aac6e9a3fc81adb8dgiddf857ec8b03655c57a1fc73b38644ca1a3d8a62ed8a59162e9ae73b351b3dd04gid885e3c1045bd9bdcc91bdf30f82b5696gid14f4ec16431e0686150daa43f3210513&tw=61690b96c1d0471b638f31426f38e68aa67fb7ed6da86f32dc10ad817fe55a0a'></script>
+                                <!-- Do not remove this --- Analytics Tracking code ends. --></form>
+                        </div>
+                        <!--<form method="post" class="contact__form" action="php/mail.php">
+
                             <div class="row">
                                 <div class="col-12">
                                     <div class="alert alert-success contact__msg" style="display: none"
@@ -42,7 +231,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- Form elements -->
+
                             <div class="row">
                                 <div class="col-md-12 form-group">
                                     <input name="name" type="text" placeholder="Nombre *" required>
@@ -61,7 +250,7 @@
                                     <input name="submit" type="submit" value="Enviar Mensaje">
                                 </div>
                             </div>
-                        </form>
+                        </form>-->
 
                     </div>
                 </div>
