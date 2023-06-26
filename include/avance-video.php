@@ -10,7 +10,7 @@
             <div class="col-12 col-lg-12 fit-videos text-center md-margin-30px-bottom">
                 <!-- start vimeo video -->
                 <iframe width="100%" height="615"
-                        src="https://youtu.be/Dz9-be1Z-I8"
+                        src="https://www.youtube.com/embed/Dz9-be1Z-I8"
                         frameborder="0"></iframe>
                 <!-- end vimeo video -->
             </div>

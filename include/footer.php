@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="main-footer dark" id="contacto" data-scroll-index="6">
+<footer class="main-footer dark" data-scroll-index="6">
     <div class="container">
         <div class="row">
             <div class="col-md-4 mb-30">

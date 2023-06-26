@@ -22,7 +22,9 @@
                         hotel, en la comodidad de su propiedad.</p>
                     <p>Durante su ausencia, los propietarios tendrán la tranquilidad de que su inversión estará
                         protegida por el hotel, mediante nuestro Programa de Renta (opcional)</p>
-
+                    <div class="butn-dark mt-30 mb-30 mr-15"><a class="vid" href="https://vimeo.com/574644470"><span>Ver video <i
+                                        class="ti-control-play"></i></span></a>
+                    </div>
                 </div>
                 <div class="col-md-6 animate-box" data-animate-effect="fadeInUp">
                     <ul class="list-group list-group-flush">

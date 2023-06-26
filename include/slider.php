@@ -14,7 +14,7 @@
                                     <br>Curabitur viverra the posuere aukue velit.
                                 </p>-->
                                 <div class="butn-light mt-30 mb-30"><a href="<?= $slide['cta']; ?>"
-                                                                       data-scroll-nav="6"><span>Contacto</span></a>
+                                                                       data-scroll-nav="0"><span>Contacto</span></a>
                                 </div>
                             </div>
                         </div>
