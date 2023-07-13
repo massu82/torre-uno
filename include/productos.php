@@ -13,9 +13,7 @@
                 </p>
                 <div class="butn-dark mt-30 mb-30 mr-15"><a href="#contacto"
                                                             data-scroll-nav="0"
-                                                            class="mr-1"><span>Más información</span></a><a
-                            class="vid" href="https://vimeo.com/574644470"><span>Ver video <i
-                                    class="ti-control-play"></i></span></a>
+                                                            class="mr-1"><span>Más información</span></a>
                 </div>
             </div>
             <div class="col-md-6 animate-box" data-animate-effect="fadeInUp">
@@ -35,9 +33,8 @@
                     hotelero y bajos costos de mantenimiento.
                 </p>
                 <div class="butn-dark mt-30 mb-30 mr-15"><a href="#contacto"
-                                                            data-scroll-nav="0" class="mr-1"><span>Más información</span></a><a
-                            class="vid" href="https://vimeo.com/574644470"><span>Ver video <i
-                                    class="ti-control-play"></i></span></a>
+                                                            data-scroll-nav="0"
+                                                            class="mr-1"><span>Más información</span></a>
                 </div>
             </div>
             <div class="col-md-6 animate-box" data-animate-effect="fadeInUp">
