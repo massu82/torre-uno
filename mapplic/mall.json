@@ -45,7 +45,7 @@
     {
       "id": "plantabaja",
       "title": "Planta Baja",
-      "map": "maps/mall/pb.svg",
+      "map": "maps/mall/pb-m.svg",
       
       "locations": [
         {
@@ -80,7 +80,7 @@
     {
       "id": "primernivel",
       "title": "Primer Nivel",
-      "map": "maps/mall/1n-v2.svg",
+      "map": "maps/mall/1n-m.svg",
       
       "locations": [
         {
@@ -115,7 +115,7 @@
     {
       "id": "segundonivel",
       "title": "Segundo Nivel",
-      "map": "maps/mall/2n.svg",
+      "map": "maps/mall/2n-m.svg",
       
       "locations": [
         {
@@ -150,7 +150,7 @@
     {
       "id": "penthouse",
       "title": "Penthouse",
-      "map": "maps/mall/ph.svg",
+      "map": "maps/mall/ph-m.svg",
       
       "locations": [
         {
