@@ -16,6 +16,7 @@
 <?php include('include/slider.php'); ?>
 <?php include('include/beneficios.php'); ?>
 <?php include('include/proyecto.php'); ?>
+<?php include('include/departamentos.php'); ?>
 <?php include('include/productos.php'); ?>
 <?php //include('include/vistas.php'); ?>
 <?php include('include/galeria.php'); ?>

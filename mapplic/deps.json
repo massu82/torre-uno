@@ -15,7 +15,7 @@
     {
       "class": "dark",
       "base": {
-        "fill": "rgba(255, 255, 255, 0.6)"
+        "fill": "rgba(0, 0, 0, 0.2)"
       },
       "hover": {
         "fill": "rgba(255, 255, 255, 0)"
@@ -26,27 +26,12 @@
     }
   ],
   "levels": [
-    {
-      "id": "estacionamiento",
-      "title": "Estacionamiento",
-      "map": "mapplic/maps/mall/est.jpg",
-      "locations": [
-        {
-          "id": "est",
-          "title": "Estacionamiento",
-          "about": "Estacionamiento",
-          "description": "Estacionamiento",
-          "x": "0.5697",
-          "y": "1.1",
-          "zoom": "1"
-        }
-      ]
-    },
+
     {
       "id": "plantabaja",
       "title": "Planta Baja",
-      "map": "mapplic/maps/mall/pb.svg",
-      
+      "map": "mapplic/maps/mall/pb-m.svg",
+
       "locations": [
         {
           "id": "1001",
@@ -54,7 +39,7 @@
           "about": "Panta Baja",
           "description": "<table><tbody><tr><td>M2 de construcción</td><th>265.80</th></tr><tr><td>Recámaras</td><th>3</th></tr><tr><td>Baños</td><th>3</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
           "x": "0.2197",
-          "y": "1.1",
+          "y": "0.9",
           "zoom": "1"
         },
         {
@@ -63,7 +48,7 @@
           "about": "Planta Baja",
           "description": "<table><tbody><tr><td>M2 de construcción</td><th>305.04</th></tr><tr><td>Recámaras</td><th>3</th></tr><tr><td>Baños</td><th>3</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
           "x": "0.5",
-          "y": "1.1",
+          "y": "0.9",
           "zoom": "1"
         },
         {
@@ -72,7 +57,7 @@
           "about": "Planta Baja",
           "description": "<table><tbody><tr><td>M2 de construcción</td><th>267.40</th></tr><tr><td>Recámaras</td><th>3</th></tr><tr><td>Baños</td><th>3</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
           "x": "0.80",
-          "y": "1.1",
+          "y": "0.9",
           "zoom": "1"
         }
       ]
@@ -80,8 +65,8 @@
     {
       "id": "primernivel",
       "title": "Primer Nivel",
-      "map": "mapplic/maps/mall/1n.svg",
-      
+      "map": "mapplic/maps/mall/1n-m.svg",
+
       "locations": [
         {
           "id": "1101",
@@ -89,7 +74,7 @@
           "about": "Primer Nivel",
           "description": "<table><tbody><tr><td>M2 de construcción</td><th>208.29</th></tr><tr><td>Recámaras</td><th>3</th></tr><tr><td>Baños</td><th>3</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
           "x": "0.2197",
-          "y": "1.1",
+          "y": "0.9",
           "zoom": "1"
         },
         {
@@ -98,7 +83,7 @@
           "about": "Primer Nivel",
           "description": "<table><tbody><tr><td>M2 de construcción</td><th>236.49</th></tr><tr><td>Recámaras</td><th>3</th></tr><tr><td>Baños</td><th>3</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
           "x": "0.5",
-          "y": "1.1",
+          "y": "0.9",
           "zoom": "1"
         },
         {
@@ -107,7 +92,7 @@
           "about": "Primer Nivel",
           "description": "<table><tbody><tr><td>M2 de construcción</td><th>209.85</th></tr><tr><td>Recámaras</td><th>3</th></tr><tr><td>Baños</td><th>3</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
           "x": "0.80",
-          "y": "1.1",
+          "y": "0.9",
           "zoom": "1"
         }
       ]
@@ -115,8 +100,8 @@
     {
       "id": "segundonivel",
       "title": "Segundo Nivel",
-      "map": "mapplic/maps/mall/2n.svg",
-      
+      "map": "mapplic/maps/mall/2n-m.svg",
+
       "locations": [
         {
           "id": "1201",
@@ -124,7 +109,7 @@
           "about": "Segundo Nivel",
           "description": "<table><tbody><tr><td>M2 de construcción</td><th>207.22</th></tr><tr><td>Recámaras</td><th>2</th></tr><tr><td>Baños</td><th>2</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
           "x": "0.2197",
-          "y": "1.1",
+          "y": "0.9",
           "zoom": "1"
         },
         {
@@ -133,7 +118,7 @@
           "about": "Segundo Nivel",
           "description": "<table><tbody><tr><td>M2 de construcción</td><th>237.11</th></tr><tr><td>Recámaras</td><th>3</th></tr><tr><td>Baños</td><th>3</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
           "x": "0.5",
-          "y": "1.1",
+          "y": "0.9",
           "zoom": "1"
         },
         {
@@ -142,7 +127,7 @@
           "about": "Segundo Nivel",
           "description": "<table><tbody><tr><td>M2 de construcción</td><th>198.22</th></tr><tr><td>Recámaras</td><th>3</th></tr><tr><td>Baños</td><th>3</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
           "x": "0.80",
-          "y": "1.1",
+          "y": ".9",
           "zoom": "1"
         }
       ]
@@ -150,8 +135,8 @@
     {
       "id": "penthouse",
       "title": "Penthouse",
-      "map": "mapplic/maps/mall/ph.svg",
-      
+      "map": "mapplic/maps/mall/ph-m.svg",
+
       "locations": [
         {
           "id": "ph",
@@ -159,58 +144,7 @@
           "about": "Penthouse",
           "description": "<table><tbody><tr><td>M2 de construcción</td><th>433.63</th></tr><tr><td>Recámaras</td><th>4</th></tr><tr><td>Baños</td><th>4</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
           "x": "0.5697",
-          "y": "1.1",
-          "zoom": "1"
-        }
-      ]
-    },
-    {
-      "id": "techos",
-      "title": "Techos",
-      "map": "mapplic/maps/mall/techos.jpg",
-      
-      "locations": [
-        {
-          "id": "techos",
-          "title": "techos",
-          "about": "Conjunto de cubiertas",
-          "description": "",
-          "x": "0.5697",
-          "y": "1.1",
-          "zoom": "1"
-        }
-      ]
-    },
-    {
-      "id": "longitudinal",
-      "title": "Corte Longitudinal",
-      "map": "mapplic/maps/mall/longitudinal.jpg",
-      
-      "locations": [
-        {
-          "id": "longitudinal",
-          "title": "Longitudinal",
-          "about": "Corte Longitudinal",
-          "description": "",
-          "x": "0.5697",
-          "y": "1.1",
-          "zoom": "1"
-        }
-      ]
-    },
-    {
-      "id": "transversal",
-      "title": "Corte Transversal",
-      "map": "mapplic/maps/mall/transversal.jpg",
-      
-      "locations": [
-        {
-          "id": "transversal",
-          "title": "Transversal",
-          "about": "Corte Transversal",
-          "description": "",
-          "x": "0.5697",
-          "y": "1.1",
+          "y": "0.9",
           "zoom": "1"
         }
       ]

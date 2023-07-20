@@ -80,4 +80,53 @@
 <script src="js/YouTubePopUp.js"></script>
 <script src="js/before-after.js"></script>
 <script src="js/custom.js"></script>
+<!--Mapplic-->
+<!--<script type="text/javascript" src="mapplic/js/jquery.mousewheel.js"></script>-->
+<script type="text/javascript" src="mapplic/js/script.js"></script>
+<script type="text/javascript" src="mapplic/js/csvparser.js"></script> <!-- Required for CSV Support -->
+<script type="text/javascript" src="mapplic/mapplic/mapplic.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var css = '.mapplic-filtered svg [id^=landmark] > * {opacity: 1 !important; }';
+
+        var map = $('#mapplic').mapplic({
+            source: 'mapplic/mall.json',
+            customcss: css,
+            sidebar: false,
+            sidebartoggle: false,
+            alphabetic: true,
+            height: 580,
+            developer: false,
+            searchdescription: false,
+            searcheverywhere: false,
+            animations: true,
+            minimap: false,
+            marker: 'hidden',
+            fillcolor: false,
+            fullscreen: false,
+            thumbholder: true,
+            maxscale: 2,
+            hovertipdesc: true
+        });
+        var map = $('#deps').mapplic({
+            source: 'mapplic/deps.json',
+            customcss: css,
+            sidebar: true,
+            sidebartoggle: true,
+            alphabetic: true,
+            height: 580,
+            developer: false,
+            searchdescription: false,
+            searcheverywhere: false,
+            animations: true,
+            minimap: false,
+            marker: 'hidden',
+            fillcolor: true,
+            fullscreen: false,
+            thumbholder: true,
+            maxscale: 2,
+            hovertipdesc: false
+        });
+    });
+</script>
 </body>
