@@ -1,4 +1,4 @@
-<section class="section-padding2" id="departamentos" data-scroll-index="2">
+<section class="section-padding2" id="deptos" data-scroll-index="7">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
