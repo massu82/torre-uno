@@ -1,6 +1,6 @@
 {
   "mapwidth": "1000",
-  "mapheight": "900",
+  "mapheight": "700",
   "defaultstyle": "dark",
   "styles": [
     {
@@ -15,7 +15,7 @@
     {
       "class": "dark",
       "base": {
-        "fill": "rgba(255, 255, 255, .8)"
+        "fill": "rgba(255, 255, 255, 0.6)"
       },
       "hover": {
         "fill": "rgba(255, 255, 255, 0)"
@@ -26,12 +26,27 @@
     }
   ],
   "levels": [
-
+    {
+      "id": "estacionamiento",
+      "title": "Parking",
+      "map": "mapplic/maps/mall/est.jpg",
+      "locations": [
+        {
+          "id": "est",
+          "title": "Parking",
+          "about": "Parking",
+          "description": "Parking",
+          "x": "0.5697",
+          "y": "1.1",
+          "zoom": "1"
+        }
+      ]
+    },
     {
       "id": "plantabaja",
-      "title": "Planta Baja",
-      "map": "mapplic/maps/mall/pb-m.svg",
-
+      "title": "Ground Floor",
+      "map": "mapplic/maps/mall/pb.svg",
+      
       "locations": [
         {
           "id": "1001",
@@ -39,95 +54,95 @@
           "about": "Panta Baja",
           "description": "<table><tbody><tr><td>M2 de construcción</td><th>265.80</th></tr><tr><td>Recámaras</td><th>3</th></tr><tr><td>Baños</td><th>3</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
           "x": "0.2197",
-          "y": ".5",
+          "y": "1.1",
           "zoom": "1"
         },
         {
           "id": "1002",
           "title": "1002 Garden",
-          "about": "Planta Baja",
+          "about": "Ground Floor",
           "description": "<table><tbody><tr><td>M2 de construcción</td><th>305.04</th></tr><tr><td>Recámaras</td><th>3</th></tr><tr><td>Baños</td><th>3</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
           "x": "0.5",
-          "y": "0.5",
+          "y": "1.1",
           "zoom": "1"
         },
         {
           "id": "1003",
           "title": "1003 Garden",
-          "about": "Planta Baja",
+          "about": "Ground Floor",
           "description": "<table><tbody><tr><td>M2 de construcción</td><th>267.40</th></tr><tr><td>Recámaras</td><th>3</th></tr><tr><td>Baños</td><th>3</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
           "x": "0.80",
-          "y": "0.5",
+          "y": "1.1",
           "zoom": "1"
         }
       ]
     },
     {
       "id": "primernivel",
-      "title": "Primer Nivel",
-      "map": "mapplic/maps/mall/1n-m.svg",
-
+      "title": "Level One",
+      "map": "mapplic/maps/mall/1n.svg",
+      
       "locations": [
         {
           "id": "1101",
           "title": "1101",
-          "about": "Primer Nivel",
+          "about": "Level One",
           "description": "<table><tbody><tr><td>M2 de construcción</td><th>208.29</th></tr><tr><td>Recámaras</td><th>3</th></tr><tr><td>Baños</td><th>3</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
           "x": "0.2197",
-          "y": "0.5",
+          "y": "1.1",
           "zoom": "1"
         },
         {
           "id": "1102",
           "title": "1102",
-          "about": "Primer Nivel",
+          "about": "Level One",
           "description": "<table><tbody><tr><td>M2 de construcción</td><th>236.49</th></tr><tr><td>Recámaras</td><th>3</th></tr><tr><td>Baños</td><th>3</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
           "x": "0.5",
-          "y": "0.5",
+          "y": "1.1",
           "zoom": "1"
         },
         {
           "id": "1103",
           "title": "1103",
-          "about": "Primer Nivel",
+          "about": "Level One",
           "description": "<table><tbody><tr><td>M2 de construcción</td><th>209.85</th></tr><tr><td>Recámaras</td><th>3</th></tr><tr><td>Baños</td><th>3</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
           "x": "0.80",
-          "y": "0.5",
+          "y": "1.1",
           "zoom": "1"
         }
       ]
     },
     {
       "id": "segundonivel",
-      "title": "Segundo Nivel",
-      "map": "mapplic/maps/mall/2n-m.svg",
-
+      "title": "Level Two",
+      "map": "mapplic/maps/mall/2n.svg",
+      
       "locations": [
         {
           "id": "1201",
           "title": "1201",
-          "about": "Segundo Nivel",
+          "about": "Level Two",
           "description": "<table><tbody><tr><td>M2 de construcción</td><th>207.22</th></tr><tr><td>Recámaras</td><th>2</th></tr><tr><td>Baños</td><th>2</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
           "x": "0.2197",
-          "y": "0.5",
+          "y": "1.1",
           "zoom": "1"
         },
         {
           "id": "1202",
           "title": "1202",
-          "about": "Segundo Nivel",
+          "about": "Level Two",
           "description": "<table><tbody><tr><td>M2 de construcción</td><th>237.11</th></tr><tr><td>Recámaras</td><th>3</th></tr><tr><td>Baños</td><th>3</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
           "x": "0.5",
-          "y": "0.5",
+          "y": "1.1",
           "zoom": "1"
         },
         {
           "id": "1203",
           "title": "1203",
-          "about": "Segundo Nivel",
+          "about": "Level Two",
           "description": "<table><tbody><tr><td>M2 de construcción</td><th>198.22</th></tr><tr><td>Recámaras</td><th>3</th></tr><tr><td>Baños</td><th>3</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
           "x": "0.80",
-          "y": ".5",
+          "y": "1.1",
           "zoom": "1"
         }
       ]
@@ -135,8 +150,8 @@
     {
       "id": "penthouse",
       "title": "Penthouse",
-      "map": "mapplic/maps/mall/ph-m.svg",
-
+      "map": "mapplic/maps/mall/ph.svg",
+      
       "locations": [
         {
           "id": "ph",
@@ -144,7 +159,58 @@
           "about": "Penthouse",
           "description": "<table><tbody><tr><td>M2 de construcción</td><th>433.63</th></tr><tr><td>Recámaras</td><th>4</th></tr><tr><td>Baños</td><th>4</th></tr><tr><td>Niveles</td><th>1</th></tr><tr><th colspan=\"2\">Vista total al Océano</th></tr></tbody></table>",
           "x": "0.5697",
-          "y": "0.5",
+          "y": "1.1",
+          "zoom": "1"
+        }
+      ]
+    },
+    {
+      "id": "techos",
+      "title": "Roofs",
+      "map": "mapplic/maps/mall/techos.jpg",
+      
+      "locations": [
+        {
+          "id": "techos",
+          "title": "Roofs",
+          "about": "Roofs",
+          "description": "",
+          "x": "0.5697",
+          "y": "1.1",
+          "zoom": "1"
+        }
+      ]
+    },
+    {
+      "id": "longitudinal",
+      "title": "Longitudinal Cut",
+      "map": "mapplic/maps/mall/longitudinal.jpg",
+      
+      "locations": [
+        {
+          "id": "longitudinal",
+          "title": "Longitudinal Cut",
+          "about": "Longitudinal Cut",
+          "description": "",
+          "x": "0.5697",
+          "y": "1.1",
+          "zoom": "1"
+        }
+      ]
+    },
+    {
+      "id": "transversal",
+      "title": "Cross-section",
+      "map": "mapplic/maps/mall/transversal.jpg",
+      
+      "locations": [
+        {
+          "id": "transversal",
+          "title": "Cross-section",
+          "about": "Cross-section",
+          "description": "",
+          "x": "0.5697",
+          "y": "1.1",
           "zoom": "1"
         }
       ]

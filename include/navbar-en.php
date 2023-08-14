@@ -10,17 +10,17 @@
         <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#beneficios" data-scroll-nav="1">Beneficios</a></li>
-                <li class="nav-item"><a class="nav-link" href="#proyecto" data-scroll-nav="2">Proyecto</a></li>
-                <li class="nav-item"><a class="nav-link" href="#deptos">Departamentos</a></li>
-                <li class="nav-item"><a class="nav-link" href="#productos" data-scroll-nav="3">Productos</a></li>
-                <li class="nav-item"><a class="nav-link" href="#galeria" data-scroll-nav="4">Galería</a></li>
-                <li class="nav-item"><a class="nav-link" href="#vistas" data-scroll-nav="5">Vistas</a></li>
-                <li class="nav-item"><a class="nav-link" href="#avance" data-scroll-nav="6">Avance de obra</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contacto" data-scroll-nav="0">Contacto</a></li>
-                <li class="nav-item dropdown"><a href="#" class="nav-link">Español <i class="ti-angle-down"></i></a>
+                <li class="nav-item"><a class="nav-link" href="#beneficios" data-scroll-nav="1">BENEFITS</a></li>
+                <li class="nav-item"><a class="nav-link" href="#proyecto" data-scroll-nav="2">PROJECT</a></li>
+                <li class="nav-item"><a class="nav-link" href="#deptos">Departaments</a></li>
+                <li class="nav-item"><a class="nav-link" href="#productos" data-scroll-nav="3">PRODUCTS</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria" data-scroll-nav="4">GALLERY</a></li>
+                <li class="nav-item"><a class="nav-link" href="#vistas" data-scroll-nav="5">VIEWS</a></li>
+                <li class="nav-item"><a class="nav-link" href="#avance" data-scroll-nav="6">REAL ESTATE PROGRESS</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacto" data-scroll-nav="0">Contact</a></li>
+                <li class="nav-item dropdown"><a href="#" class="nav-link">English <i class="ti-angle-down"></i></a>
                     <ul class="dropdown-menu last">
-                        <li class="dropdown-item"><a href="index-en.php">Inglés</a></li>
+                        <li class="dropdown-item"><a href="./">Spanish</a></li>
                     </ul>
                 </li>
             </ul>

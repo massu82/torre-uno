@@ -544,12 +544,12 @@ blockquote cite:before {
 }
 .navbar .navbar-nav .nav-link {
     font-family: "Reforma1969";
-    font-size: 13px;
-    font-weight: 600;
+    font-size: 12px;
+    font-weight: 400;
     color: #fff;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    margin: 5px 3px;
+    letter-spacing: 0;
+    margin: 5px 2px;
     -webkit-transition: all .4s;
     transition: all .4s;
 }

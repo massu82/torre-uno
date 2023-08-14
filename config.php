@@ -23,7 +23,30 @@ $slider = [
     ],
     [
         'foto' => '4.jpg',
-        'texto' => 'Una propiedad hecha obra de arte, solo para unos cuantos privilegiados…',
+        'texto' => 'Una propiedad hecha obra de arte, solo para unos cuantos privilegiados',
+        'cta' => '#contacto'
+    ],
+];
+// Slider
+$sliderEn = [
+    [
+        'foto' => '3.jpg',
+        'texto' => 'Pool and private terrace',
+        'cta' => '#contacto'
+    ],
+    [
+        'foto' => '2.jpg',
+        'texto' => 'Avant-garde project',
+        'cta' => '#contacto'
+    ],
+    [
+        'foto' => '1.jpg',
+        'texto' => 'The only Banyan Tree branded apartments, hidden within a mexican paradise',
+        'cta' => '#contacto'
+    ],
+    [
+        'foto' => '4.jpg',
+        'texto' => 'Real estate made art, become an exclusive owner of this slice of paradise',
         'cta' => '#contacto'
     ],
 ];
@@ -227,6 +250,141 @@ $galeria = [
         'foto' => '004',
         'cat' => 'amenidades',
         'des' => 'Experiencia Banyan Tree',
+        'col' => '6'
+    ],
+];
+$galeriaEn = [
+    [
+        'foto' => '01',
+        'cat' => 'exterior',
+        'des' => 'NORTH VIEW',
+        'col' => '6'
+    ],
+    [
+        'foto' => '02',
+        'cat' => 'exterior',
+        'des' => 'NORTH VIEW',
+        'col' => '6'
+    ],
+    [
+        'foto' => '03',
+        'cat' => 'exterior',
+        'des' => 'SOUTH VIEW',
+        'col' => '6'
+    ],
+    [
+        'foto' => '04',
+        'cat' => 'exterior',
+        'des' => 'NORTH AREA VIEW',
+        'col' => '6'
+    ],
+    [
+        'foto' => '05',
+        'cat' => 'exterior',
+        'des' => 'NORTH VIEW OF THE OCEAN',
+        'col' => '6'
+    ],
+
+    [
+        'foto' => '08',
+        'cat' => 'exterior',
+        'des' => 'Main facade',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'pad-thai',
+        'cat' => 'amenities',
+        'des' => 'WORLD-CLASS DINING EXPERIENCES',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'acantilado',
+        'cat' => 'amenities',
+        'des' => 'LOCATED ON A MAGNIFICENT CLIFF',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'front',
+        'cat' => 'amenities',
+        'des' => 'Lobby',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'nao',
+        'cat' => 'amenities',
+        'des' => 'LA NAO RESTAURANT',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'gym',
+        'cat' => 'amenities',
+        'des' => 'FITNESS CENTER',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'vistas',
+        'cat' => 'amenities',
+        'des' => 'LAS VISTAS BAR',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'saffron',
+        'cat' => 'amenities',
+        'des' => 'SAFFRON RESTAURANT',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'rocas',
+        'cat' => 'amenities',
+        'des' => 'LAS ROCAS RESTAURANT',
+        'col' => '6'
+    ],
+    [
+        'foto' => 'spa',
+        'cat' => 'amenities',
+        'des' => 'Spa',
+        'col' => '6'
+    ],
+    [
+        'foto' => '06',
+        'cat' => 'amenities',
+        'des' => 'PADEL COURTS',
+        'col' => '6'
+    ],
+    [
+        'foto' => '07',
+        'cat' => 'amenities',
+        'des' => 'Outdoor pool',
+        'col' => '6'
+    ],
+    [
+        'foto' => '001',
+        'cat' => 'amenities',
+        'des' => 'FIRST CLASS SERVICE',
+        'col' => '6'
+    ],
+    [
+        'foto' => '002',
+        'cat' => 'amenities',
+        'des' => 'INTERIOR ROAD-SYSTEM INFRASTRUCTURE',
+        'col' => '6'
+    ],
+    [
+        'foto' => '005',
+        'cat' => 'amenities',
+        'des' => 'OCEAN VIEWS',
+        'col' => '6'
+    ],
+    [
+        'foto' => '003',
+        'cat' => 'amenities',
+        'des' => 'PANORAMIC OCEAN VIEWS',
+        'col' => '6'
+    ],
+    [
+        'foto' => '004',
+        'cat' => 'amenities',
+        'des' => 'BANYAN TREE EXPERIENCE',
         'col' => '6'
     ],
 

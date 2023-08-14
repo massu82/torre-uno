@@ -5,7 +5,7 @@
             <div class="col-md-4 mb-30">
                 <div class="item fotcont">
                     <div class="fothead">
-                        <h6>Teléfono</h6>
+                        <h6>Telephone</h6>
                     </div>
                     <p>744 434 0133, 744 434 0100</p>
                 </div>
@@ -21,7 +21,7 @@
             <div class="col-md-4 mb-30">
                 <div class="item fotcont">
                     <div class="fothead">
-                        <h6>Dirección</h6>
+                        <h6>Address</h6>
                     </div>
                     <p>Blvrd Cabo Marqués Lote 1, Punta Diamante, 39907 Acapulco de Juárez, Gro.</p>
                 </div>
@@ -40,7 +40,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="text-left">
-                        <p>© <?php echo date("Y"); ?> <?= SITIO ?>. Todos los derechos reservados.</p>
+                        <p>© <?php echo date("Y"); ?> <?= SITIO ?>. All rights reserved.</p>
                     </div>
                 </div>
                 <div class="col-md-4 abot">
@@ -54,8 +54,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <p class="right"><a href="https://www.gmd.mx/pop_Corporativo.html" target="_blank">Aviso de
-                            privacidad</a></p>
+                    <p class="right"><a href="https://www.gmd.mx/pop_Corporativo.html" target="_blank">Notice of Privacy</a></p>
                 </div>
             </div>
         </div>
@@ -89,8 +88,8 @@
     $(document).ready(function () {
         var css = '.mapplic-filtered svg [id^=landmark] > * {opacity: 1 !important; }';
 
-        var map = $('#mapplic').mapplic({
-            source: 'mapplic/mall.json',
+        var map = $('#mapplic-en').mapplic({
+            source: 'mapplic/mall-en.json',
             customcss: css,
             sidebar: false,
             sidebartoggle: false,
@@ -108,8 +107,8 @@
             maxscale: 2,
             hovertipdesc: true
         });
-        var map = $('#deps').mapplic({
-            source: 'mapplic/deps.json',
+        var map = $('#deps-en').mapplic({
+            source: 'mapplic/deps-en.json',
             customcss: css,
             sidebar: true,
             sidebartoggle: true,

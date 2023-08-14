@@ -2040,9 +2040,7 @@
             // trigger event
             self.el.trigger('mapready', self);
         }
-
         /* PRIVATE METHODS */
-
         // Web Mercator (EPSG:3857) lat/lng projection
         var latlngToPos = function (lat, lng) {
             var deltaLng = self.data.rightLng - self.data.leftLng,

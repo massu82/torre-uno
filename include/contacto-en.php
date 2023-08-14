@@ -21,7 +21,7 @@
                                         </span> </a>
                         </div>
                         <div class="cont mt-15 mb-30">
-                            <h5>Ver video promo</h5>
+                            <h5>WATCH PROMOTIONAL VIDEO</h5>
                         </div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@
                 <div class="col-md-5 offset-md-1">
                     <div class="testimonials-box animate-box" data-animate-effect="fadeInUp">
                         <div class="head-box">
-                            <h4>Escr&iacute;benos</h4>
+                            <h4>Contact Us</h4>
                         </div>
                         <!-- Note :
    - You can modify the font style and form style to suit your website.
@@ -61,14 +61,14 @@
                                 <div class='zcwf_row'>
 
                                     <div class='zcwf_col_fld'><input type='text' id='First_Name' name='First Name'
-                                                                     maxlength='40' placeholder="Nombre*"></input>
+                                                                     maxlength='40' placeholder="Name*"></input>
                                         <div class='zcwf_col_help'></div>
                                     </div>
                                 </div>
                                 <div class='zcwf_row'>
 
                                     <div class='zcwf_col_fld'><input type='text' id='Last_Name' name='Last Name'
-                                                                     maxlength='80' placeholder="Apellidos*"></input>
+                                                                     maxlength='80' placeholder="Last Name*"></input>
                                         <div class='zcwf_col_help'></div>
                                     </div>
                                 </div>
@@ -76,14 +76,14 @@
 
                                     <div class='zcwf_col_fld'><input type='text' ftype='email' id='Email' name='Email'
                                                                      maxlength='100'
-                                                                     placeholder="Correo Electrónico*"></input>
+                                                                     placeholder="Email*"></input>
                                         <div class='zcwf_col_help'></div>
                                     </div>
                                 </div>
                                 <div class='zcwf_row'>
                                     <div class='zcwf_col_fld'><input type='text' id='Phone' name='Phone'
                                                                      maxlength='30'
-                                                                     placeholder="Tel&eacute;fono"></input>
+                                                                     placeholder="Telephone"></input>
                                         <div class='zcwf_col_help'></div>
                                     </div>
                                 </div>
@@ -127,14 +127,14 @@
                                 <div class='zcwf_row'>
 
                                     <div class='zcwf_col_fld'><textarea id='Description' name='Description'
-                                                                        placeholder="Descripción" rows="4"></textarea>
+                                                                        placeholder="Message" rows="4"></textarea>
                                         <div class='zcwf_col_help'></div>
                                     </div>
                                 </div>
                                 <div class='zcwf_row'>
                                     <div class='zcwf_col_lab'></div>
                                     <div class='zcwf_col_fld'><input type='submit' id='formsubmit'
-                                                                     class='formsubmit zcwf_button' value='Enviar'
+                                                                     class='formsubmit zcwf_button' value='Send'
                                                                      title='Enviar'>
                                     </div>
                                     <script>

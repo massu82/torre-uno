@@ -6,7 +6,7 @@
             </div>
         </div>
         <div class="row map-container">
-            <div id="deps"></div> <!-- Map -->
+            <div id="deps-en"></div> <!-- Map -->
         </div>
     </div>
 </section>
