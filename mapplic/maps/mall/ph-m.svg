@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 27.7.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 27.8.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" baseProfile="tiny" id="layer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 x="0px" y="0px" width="1920px" height="1200px" viewBox="0 0 1920 1200" overflow="visible" xml:space="preserve">
+	 x="0px" y="0px" viewBox="0 0 1920 1200" overflow="visible" xml:space="preserve">
 <image width="1920" height="1200" id="Base" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAASwCAMAAAAt7qfEAAADAFBMVEUAAAD///8BAQHr5Nzn4tvl
 39vm4NheXFzg2tTs5t////zi3NXi3djc2NPc1tDt6OL9/vza1M3/+//UzMDp5N/6+vvWzsTm3dTS
 yr/QysPQx77a0sfKwbfGv7Pw597TzcXY0cuIiIfNxbrd1cu6tKy1r6fXz8fe2NC+tq7OyMC0rKTd
@@ -6396,8 +6396,8 @@ qqqqqqqqqqqqqqqqqqqqqqqqqqqqSntwSAAAAAAg6P9rV9gAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgFeByWOvshVQyAAAAABJRU5ErkJggg==">
 </image>
 <g id="landmarks">
-	<polygon id="ph" class="dark" fill="#1D1D1B" points="429.6,783.2 486.8,783.2 486.8,871.1 637.1,871.1 637.1,996.1 1209.9,996.1 1209.9,873.2
-		1550.9,873.2 1550.9,783.2 1607,783.2 1607,500.5 1481,500.5 1481,446.5 1501.1,446.5 1501.1,191.4 1231.1,191.4 1231.1,424.3 
-		1131.6,424.3 1131.6,288.8 896.5,288.8 896.5,423.2 745.1,423.2 745.1,505.8 429.6,505.8 	"/>
+	<polygon id="ph" class="dark" fill="#1D1D1B" points="370.1,877.6 637.1,877.6 637.1,1005.6 1209.9,1005.6 1209.9,873.2 1550.9,873.2
+		1550.9,783.2 1607,783.2 1607,447.2 1510.7,446.5 1510.7,124.7 1224.3,124.7 1222.7,417.4 1130,417.4 1131.6,280.5 896.5,280.5 
+		896.5,416.3 370.1,415.1 	"/>
 </g>
 </svg>
