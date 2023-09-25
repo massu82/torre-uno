@@ -90,36 +90,8 @@
                                 <div class='zcwf_row wfrm_fld_dpNn'>
                                     <div class='zcwf_col_fld'><select class='zcwf_col_fld_slt' id='Lead_Source'
                                                                       name='Lead Source'>
-                                            <option value='-None-'>-None-</option>
-                                            <option value='Administradores'>Administradores</option>
-                                            <option value='Amigos&#x20;y&#x20;referidos'>Amigos y referidos</option>
-                                            <option value='Broker'>Broker</option>
-                                            <option value='Business&#x20;card&#x20;MCM'>Business card MCM</option>
-                                            <option value='Business&#x20;card&#x20;o&#x20;flyer&#x20;impreso'>Business
-                                                card o flyer impreso
+                                            <option selected value='Campa&ntilde;a&#x20;de&#x20;Google'>Campaña de Google
                                             </option>
-                                            <option value='Campa&ntilde;a&#x20;newsletter'>Campa&ntilde;a newsletter
-                                            </option>
-                                            <option value='Evento&#x20;IronMan&#x20;Acapulco'>Evento IronMan Acapulco
-                                            </option>
-                                            <option value='Facebook'>Facebook</option>
-                                            <option value='Flyer&#x20;Hotel'>Flyer Hotel</option>
-                                            <option value='Google'>Google</option>
-                                            <option value='Instragram'>Instragram</option>
-                                            <option value='Landing&#x20;page&#x20;MCM'>Landing page MCM</option>
-                                            <option value='Lonas'>Lonas</option>
-                                            <option value='Newsletter&#x20;Fraccional'>Newsletter Fraccional</option>
-                                            <option value='Newsletter&#x20;Residencias'>Newsletter Residencias</option>
-                                            <option value='Propietario'>Propietario</option>
-                                            <option value='P&aacute;gina&#x20;Web'>P&aacute;gina Web</option>
-                                            <option selected value='Apartments&#x20;Banyan&#x20;Tree'>Apartments Banyan
-                                                Tree
-                                            </option>
-                                            <option value='Sin&#x20;respuesta'>Sin respuesta</option>
-                                            <option value='Vi&#x20;el&#x20;producto'>Vi el producto</option>
-                                            <option value='Video&#x20;del&#x20;Hotel'>Video del Hotel</option>
-                                            <option value='Visita&#x20;al&#x20;Hotel'>Visita al Hotel</option>
-                                            <option value='yatching&#x20;pages'>yatching pages</option>
                                         </select>
                                         <div class='zcwf_col_help'></div>
                                     </div>
